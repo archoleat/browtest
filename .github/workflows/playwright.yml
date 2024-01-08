@@ -12,6 +12,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '__tests__/**/*.spec.ts'
+      - 'core/*.ts'
 
 jobs:
   test:
@@ -37,7 +40,7 @@ jobs:
         run: npx playwright install
 
       - name: Tests
-        run: npx playwright test
+        run: npm run test:all
 
       - uses: actions/upload-artifact@v4
         if: always()
