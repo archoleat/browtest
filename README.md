@@ -101,6 +101,8 @@ and their mobile versions.
 
 -   `test:all`: Runs all tests from **desktop/** and **mobile/** folders
 
+    > Also runs with the [`playwright.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/playwright.yml) workflow.
+
 -   `lint:editorconfig`: Runs `editorconfig-checker` and
     checks all files in the project.
 
@@ -136,13 +138,13 @@ and their mobile versions.
 In playwright.config.ts the minimum settings are set,
 for more serious testing we advise you to use Chrome, Edge or Firefox.
 
-The `core/settings.ts` specifies the url for `__tests__/browser.spec.ts` and
-`core/playwright.config.ts`.
+The `core/settings.ts` specifies the url for `__tests__/desktop/*.spec.ts`,
+`__tests__/mobile/*.spec.ts` and `core/playwright.config.ts`.
 
 ## Helpers
 
 If you want to further customize your repository or vscode,
-you can download[**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers),
+you can download [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers),
 this package holds:
 
 -   GitHub branch and tag protection rules.
