@@ -1,0 +1,31 @@
+{
+  "extends": [
+    "airbnb-base",
+    "airbnb-typescript/base",
+    "plugin:no-use-extend-native/recommended",
+    "plugin:optimize-regex/recommended",
+    "plugin:promise/recommended",
+    "plugin:sonarjs/recommended"
+  ],
+  "plugins": ["import", "sonarjs"],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "import/exports-last": "error",
+    "import/group-exports": "warn",
+    "import/no-anonymous-default-export": "error",
+    "import/no-commonjs": "error",
+    "import/no-namespace": "error",
+    "import/no-unassigned-import": "error",
+    "import/no-unused-modules": "error",
+    "sonarjs/elseif-without-else": "error",
+    "sonarjs/no-inverted-boolean-check": "error"
+  }
+}
