@@ -7,7 +7,7 @@ import settings from '../../core/settings.ts';
 test('Test Web App on Mobile Chrome', async () => {
   const browser = await chromium.launch();
   const context = await browser.newContext({
-    ...devices['Galaxy S9+'],
+    ...devices['Pixel 7'],
   });
   const page = await context.newPage();
 
