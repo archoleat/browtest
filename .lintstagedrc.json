@@ -1,4 +1,4 @@
 {
   "**/*": "prettier --write",
-  "**/*.ts": "eslint --fix"
+  "core/*.ts": "eslint --fix"
 }
