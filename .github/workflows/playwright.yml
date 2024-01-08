@@ -3,7 +3,10 @@ name: Playwright
 on:
   workflow_run:
     workflows:
-      - CodeQL
+      - Editorconfig
+      - ESLing
+      - Markdown
+      - Prettier
     types:
       - completed
   pull_request:
