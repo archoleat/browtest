@@ -9,9 +9,6 @@ on:
       - Prettier
     types:
       - completed
-  pull_request:
-    branches:
-      - main
   push:
     branches:
       - main
@@ -40,7 +37,7 @@ jobs:
         run: npx playwright install
 
       - name: Tests
-        run: npm run test:all
+        run: npx playwright test
 
       - uses: actions/upload-artifact@v4
         if: always()
