@@ -3,13 +3,11 @@ import { expect, test } from '@playwright/test';
 
 import settings from '../../core/settings.ts';
 
-const mobile = devices['iPhone 14'];
-
 // https://playwright.dev/docs/writing-tests
 test('Test Web App on Mobile Safari', async () => {
   const browser = await webkit.launch();
   const context = await browser.newContext({
-    ...mobile,
+    ...devices['iPhone 14'],
   });
   const page = await context.newPage();
 
