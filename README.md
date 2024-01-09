@@ -3,7 +3,6 @@
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/codeql.yml?label=CodeQL)
-![Test](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/playwright.yml?label=Test)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/editorconfig.yml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/prettier.yml?label=Prettier)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/markdown.yml?label=Markdown)
@@ -99,8 +98,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     a pretty interface.
 
 -   `test:all`: Runs all tests from **desktop/** and **mobile/** folders
-
-    > Also runs with the [`playwright.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/playwright.yml) workflow.
 
 -   `lint:editorconfig`: Runs `editorconfig-checker` and
     checks all files in the project.
