@@ -10,11 +10,13 @@ on:
     branches:
       - main
     paths:
+      - '__tests__/**/*.spec.ts'
       - 'core/*.ts'
   push:
     branches:
       - main
     paths:
+      - '__tests__/**/*.spec.ts'
       - 'core/*.ts'
 
 jobs:

@@ -5,7 +5,7 @@
     "fix:prettier": "prettier . --write",
     "lint:editorconfig": "editorconfig-checker",
     "lint:remark": "remark . --quiet",
-    "lint:eslint": "eslint core/*.ts --fix",
+    "lint:eslint": "eslint core/*.ts __tests__/**/*.spec.ts --fix",
     "test:multiple:desktop": "playwright test __tests__/desktop -c core/playwright.config.ts --headed",
     "test:multiple:desktop:ui": "npm run test:multiple:desktop -- --ui",
     "test:safari:desktop": "playwright test __tests__/desktop/safari.spec.ts -c core/playwright.config.ts --headed",

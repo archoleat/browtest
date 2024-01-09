@@ -1,3 +1,4 @@
+// @ts-check
 import { firefox } from 'playwright';
 import { test } from '@playwright/test';
 

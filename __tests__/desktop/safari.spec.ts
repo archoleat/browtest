@@ -1,3 +1,4 @@
+// @ts-check
 import { webkit } from 'playwright';
 import { test } from '@playwright/test';
 
