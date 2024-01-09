@@ -15,7 +15,6 @@
 -   [Features](#features)
 -   [Package.json scripts](#packagejson-scripts)
 -   [Settings](#settings)
--   [Helpers](#helpers)
 -   [Authors](#authors)
 -   [Contributors](#contributors)
 -   [Contributing](#contributing)
@@ -140,27 +139,6 @@ for more serious testing we advise you to use Chrome, Edge or Firefox.
 
 The `core/settings.ts` specifies the url for `__tests__/desktop/*.spec.ts`,
 `__tests__/mobile/*.spec.ts` and `core/playwright.config.ts`.
-
-## Helpers
-
-If you want to further customize your repository or vscode,
-you can download [**Conqueror Helpers**](https://github.com/Conqueror-Site-Builder/conqueror-helpers),
-this package holds:
-
--   GitHub branch and tag protection rules.
--   Extended version of the `.npmrc` file.
--   Bash console theme.
--   `.gitconfig`.
--   `.gitignore_global`.
--   `.gitmessage.txt`.
--   `settings.json` and `extensions.json` for vscode.
--   Snippets for **js**, **ts**, **scss**, **pug** and **json**.
-
-> [!WARNING]
-> **Conqueror Helpers** contains configuration and snippets for **vscode only**,
-> if you want configuration and snippet files to be added for your IDE
-> or code editor please create an [**issue**](https://github.com/Conqueror-Site-Builder/conqueror-helpers/issues/new/choose)
-> or **Pull Request** with the new files.
 
 ## Authors
 
