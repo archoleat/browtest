@@ -12,6 +12,7 @@
   },
   "rules": {
     "import/exports-last": "error",
+    "import/extensions": "warn",
     "import/group-exports": "warn",
     "import/no-commonjs": "error",
     "import/no-namespace": "error",
