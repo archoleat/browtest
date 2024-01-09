@@ -60,45 +60,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   `init`: Installs dependencies, **husky** and **playwright**.
 
--   `test:multiple:desktop`: Runs all desktop browsers from **__tests__/desktop/**
-    folder in parallel.
-
--   `test:multiple:desktop:ui`: Same as `test:multiple:desktop` but with
-    a pretty interface.
-
--   `test:safari:desktop`: Runs **desktop Safari**.
-
--   `test:safari:desktop:ui`: Same as `test:safari:desktop` but with
-    a pretty interface.
-
--   `test:firefox:desktop`: Runs **desktop Firefox**.
-
--   `test:firefox:desktop:ui`: Same as `test:firefox:desktop` but with
-    a pretty interface.
-
--   `test:chrome:desktop`: Runs **desktop Chrome**.
-
--   `test:chrome:desktop:ui`: Same as `test:chrome:desktop` but with
-    a pretty interface.
-
--   `test:multiple:mobile`: Runs all mobile browsers from **__tests__/mobile/**
-    folder in parallel.
-
--   `test:multiple:mobile:ui`: Same as `test:multiple:mobile` but with
-    a pretty interface.
-
--   `test:safari:mobile`: Runs **mobile Safari**.
-
--   `test:safari:mobile:ui`: Same as `test:safari:mobile` but with
-    a pretty interface.
-
--   `test:chrome:mobile`: Runs **mobile Chrome**.
-
--   `test:chrome:mobile:ui`: Same as `test:chrome:mobile` but with
-    a pretty interface.
-
--   `test:all`: Runs all tests from **desktop/** and **mobile/** folders
-
 -   `lint:editorconfig`: Runs `editorconfig-checker` and
     checks all files in the project.
 
@@ -121,8 +82,50 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
     > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml) workflow.
 
+-   `test:safari:desktop`: Runs **desktop Safari**.
+
+-   `test:safari:desktop:ui`: Same as `test:safari:desktop` but with
+    a pretty interface.
+
+-   `test:safari:mobile`: Runs **mobile Safari**.
+
+-   `test:safari:mobile:ui`: Same as `test:safari:mobile` but with
+    a pretty interface.
+
+-   `test:firefox:desktop`: Runs **desktop Firefox**.
+
+-   `test:firefox:desktop:ui`: Same as `test:firefox:desktop` but with
+    a pretty interface.
+
+-   `test:chrome:desktop`: Runs **desktop Chrome**.
+
+-   `test:chrome:desktop:ui`: Same as `test:chrome:desktop` but with
+    a pretty interface.
+
+-   `test:chrome:mobile`: Runs **mobile Chrome**.
+
+-   `test:chrome:mobile:ui`: Same as `test:chrome:mobile` but with
+    a pretty interface.
+
+-   `test:multiple:desktop`: Runs all desktop browsers from **__tests__/desktop/**
+    folder in parallel.
+
+-   `test:multiple:desktop:ui`: Same as `test:multiple:desktop` but with
+    a pretty interface.
+
+-   `test:multiple:mobile`: Runs all mobile browsers from **__tests__/mobile/**
+    folder in parallel.
+
+-   `test:multiple:mobile:ui`: Same as `test:multiple:mobile` but with
+    a pretty interface.
+
+-   `test:all`: Runs all tests from **desktop/** and **mobile/** folders
+
 -   `cm`: Runs `Commitizen`, `Commitlint`, and `Husky` to create commits
     according to **Conventional Commits** standards.
+
+> [!TIP]
+> Scripts with the `:ui` suffix can also be used for detailed screenshots!
 
 > [!WARNING]
 > After you have finished testing close the browser by clicking on the cross icon,
@@ -134,6 +137,11 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 In `playwright.config.ts` the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 and **Safari**.
+
+In the `settings.ts` you can change the path to the **main directory**
+and enable or disable **devtools** for all tests you run.
+
+> By default, **devtools** are turned off.
 
 ## Authors
 

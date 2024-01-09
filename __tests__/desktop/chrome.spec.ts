@@ -2,11 +2,15 @@
 import { chromium } from 'playwright';
 import { test } from '@playwright/test';
 
+import settings from '../../core/settings.ts';
+
 // https://playwright.dev/docs/writing-tests
-test('Test Web App on Desktop Chrome', async () => {
-  const browser = await chromium.launch();
+test('Desktop Chrome', async () => {
+  const browser = await chromium.launch({
+    devtools: settings.devTools,
+  });
   const page = await browser.newPage();
 
-  await page.goto('/');
+  await page.goto(settings.rootFolder);
   await page.pause();
 });

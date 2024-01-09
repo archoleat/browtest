@@ -2,11 +2,15 @@
 import { webkit } from 'playwright';
 import { test } from '@playwright/test';
 
+import settings from '../../core/settings.ts';
+
 // https://playwright.dev/docs/writing-tests
-test('Test Web App on Desktop Safari', async () => {
-  const browser = await webkit.launch();
+test('Desktop Safari', async () => {
+  const browser = await webkit.launch({
+    devtools: settings.devTools,
+  });
   const page = await browser.newPage();
 
-  await page.goto('/');
+  await page.goto(settings.rootFolder);
   await page.pause();
 });

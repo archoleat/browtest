@@ -1,6 +1,6 @@
 {
   "extends": ["airbnb-base", "airbnb-typescript/base"],
-  "plugins": ["import", "sonarjs", "unicorn"],
+  "plugins": ["import", "unicorn"],
   "env": {
     "browser": true,
     "es6": true
