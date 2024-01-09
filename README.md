@@ -27,8 +27,8 @@ This project is built on [**Playwright**](https://github.com/microsoft/playwrigh
 and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest).
 
 > [!TIP]
-> Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror),
-> and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest)!
+> Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
+> or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest)!
 
 ## Getting Started
 
@@ -134,11 +134,11 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 ## Settings
 
-In `playwright.config.ts` the minimum settings are set,
+In `core/playwright.config.ts` the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 and **Safari**.
 
-In the `settings.ts` you can change the path to the **main directory**
+In the `core/settings.ts` you can change the path to the **main directory**
 and enable or disable **devtools** for all tests you run.
 
 > By default, **devtools** are turned off.
