@@ -37,7 +37,7 @@ and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/brow
 
 1.  Install dependencies.
 
-1.  Change the **url** address in the `core/settings.ts` file if necessary.
+1.  Change the **url** address in the `core/playwright.config.ts` file if necessary.
 
 1.  Start the local server.
 
@@ -51,8 +51,8 @@ You can run browsers not only one at a time but several at once
 with **multiple** mode, [learn more](#packagejson-scripts)
 about the available modes.
 
-Testing is available in **Chromium**, **Gecko** (Firefox), **WebKit** (Safari)
-and their mobile versions.
+Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
+(**Chromium**) Edge and Chrome and their mobile versions.
 
 > [!WARNING]
 > **There is no support for mobile Firefox in playwright!**
@@ -134,11 +134,9 @@ and their mobile versions.
 
 ## Settings
 
-In playwright.config.ts the minimum settings are set,
-for more serious testing we advise you to use Chrome, Edge or Firefox.
-
-The `core/settings.ts` specifies the url for `__tests__/desktop/*.spec.ts`,
-`__tests__/mobile/*.spec.ts` and `core/playwright.config.ts`.
+In `playwright.config.ts` the minimum settings are set,
+for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
+and **Safari**.
 
 ## Authors
 

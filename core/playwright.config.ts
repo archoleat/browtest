@@ -1,7 +1,5 @@
 import { defineConfig } from '@playwright/test';
 
-import settings from './settings.ts';
-
 // https://playwright.dev/docs/test-configuration
 export default defineConfig({
   fullyParallel: true,
@@ -10,7 +8,7 @@ export default defineConfig({
   workers: 3,
   expect: { timeout: 30000 },
   use: {
-    baseURL: settings.url,
+    baseURL: 'http://localhost:3000/',
     bypassCSP: true,
     colorScheme: 'dark',
     headless: false,
