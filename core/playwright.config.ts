@@ -5,7 +5,7 @@ export default defineConfig({
   fullyParallel: true,
   reporter: 'html',
   testDir: '../__tests__',
-  workers: 3,
+  workers: process.env['CI'] ? 1 : 3,
   expect: { timeout: 30000 },
   use: {
     baseURL: 'http://localhost:3000/',
