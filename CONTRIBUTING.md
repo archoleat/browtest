@@ -25,11 +25,7 @@ for all involved. The community looks forward to your contributions.
 -   [I Want To Contribute](#i-want-to-contribute)
 -   [Reporting Bugs](#reporting-bugs)
 -   [Suggesting Enhancements](#suggesting-enhancements)
--   [Your First Code Contribution](#your-first-code-contribution)
 -   [Improving The Documentation](#improving-the-documentation)
--   [Styleguides](#styleguides)
--   [Commit Messages](#commit-messages)
--   [Join The Project Team](#join-the-project-team)
 
 ## Code of Conduct
 
