@@ -2,7 +2,7 @@
 import { webkit } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/settings.ts';
+import settings from '../../core/settings';
 
 // https://playwright.dev/docs/writing-tests
 test('Desktop Safari', async () => {
