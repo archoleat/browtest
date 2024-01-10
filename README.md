@@ -24,11 +24,11 @@
 ## **Make cross-browser checking more convenient!**
 
 This project is built on [**Playwright**](https://github.com/microsoft/playwright)
-and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest).
+and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template).
 
 > [!TIP]
 > Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
-> or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest)!
+> or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template)!
 
 ## Getting Started
 
@@ -36,18 +36,19 @@ and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/brow
 
 1.  Install dependencies.
 
-1.  Change the **url** address in the `core/playwright.config.ts` file if necessary.
+1.  Change the **url** address in the **`core/playwright.config.ts`** file
+    if necessary.
 
 1.  Start the local server.
 
 1.  After all steps start **browtest**.
 
-    > [Learn more](#packagejson-scripts) about the available modes.
+    > [**Learn more**](#packagejson-scripts) about the available modes.
 
 ## Features
 
 You can run browsers not only one at a time but several at once
-with **multiple** mode, [learn more](#packagejson-scripts)
+with **multiple** mode, [**learn more**](#packagejson-scripts)
 about the available modes.
 
 Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
@@ -58,74 +59,77 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 ## Package.json scripts
 
--   `init`: Installs dependencies, **husky** and **playwright**.
+-   **`init`**: Installs dependencies, **husky** and **playwright**.
 
--   `lint:editorconfig`: Runs `editorconfig-checker` and
+-   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
     checks all files in the project.
 
-    > Also runs with the [`editorconfig.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml) workflow.
+    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
+    > workflow.
 
--   `fix:prettier`: Runs `Prettier` with the `--write` flag.
+-   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/prettier.yml)
-    > workflow, `prettier` is run with the `--check` flag.
+    > workflow, **`prettier`** is run with the **`--check`** flag.
     >
-    > Also run with a `pre-commit` hook.
+    > Also run with a **`pre-commit`** hook.
 
--   `lint:remark`: Runs `remark` with the `--quiet` flag and
+-   **`lint:remark`**: Runs **`remark`** with the **`--quiet`** flag and
     checks all markdown files.
 
-    > Also runs with the [`markdown.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml) workflow.
+    > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml)
+    > workflow.
 
--   `lint:eslint`: Runs `eslint` with the flag `--fix`
-    for all `TypeScript` files.
+-   **`lint:eslint`**: Runs **`eslint`** with the flag **`--fix`**
+    for all **TypeScript** files.
 
-    > Also runs with the [`eslint.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml) workflow.
+    > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
+    > workflow.
 
--   `test:safari:desktop`: Runs **desktop Safari**.
+-   **`test:safari:desktop`**: Runs **desktop Safari**.
 
--   `test:safari:desktop:ui`: Same as `test:safari:desktop` but with
+-   **`test:safari:desktop:ui`**: Same as **`test:safari:desktop`** but with
     a pretty interface.
 
--   `test:safari:mobile`: Runs **mobile Safari**.
+-   **`test:safari:mobile`**: Runs **mobile Safari**.
 
--   `test:safari:mobile:ui`: Same as `test:safari:mobile` but with
+-   **`test:safari:mobile:ui`**: Same as **`test:safari:mobile`** but with
     a pretty interface.
 
--   `test:firefox:desktop`: Runs **desktop Firefox**.
+-   **`test:firefox:desktop`**: Runs **desktop Firefox**.
 
--   `test:firefox:desktop:ui`: Same as `test:firefox:desktop` but with
+-   **`test:firefox:desktop:ui`**: Same as **`test:firefox:desktop`** but with
     a pretty interface.
 
--   `test:chrome:desktop`: Runs **desktop Chrome**.
+-   **`test:chrome:desktop`**: Runs **desktop Chrome**.
 
--   `test:chrome:desktop:ui`: Same as `test:chrome:desktop` but with
+-   **`test:chrome:desktop:ui`**: Same as **`test:chrome:desktop`** but with
     a pretty interface.
 
--   `test:chrome:mobile`: Runs **mobile Chrome**.
+-   **`test:chrome:mobile`**: Runs **mobile Chrome**.
 
--   `test:chrome:mobile:ui`: Same as `test:chrome:mobile` but with
+-   **`test:chrome:mobile:ui`**: Same as **`test:chrome:mobile`** but with
     a pretty interface.
 
--   `test:multiple:desktop`: Runs all desktop browsers from **__tests__/desktop/**
+-   **`test:multiple:desktop`**: Runs all desktop browsers from **__tests__/desktop/**
     folder in parallel.
 
--   `test:multiple:desktop:ui`: Same as `test:multiple:desktop` but with
+-   **`test:multiple:desktop:ui`**: Same as **`test:multiple:desktop`** but with
     a pretty interface.
 
--   `test:multiple:mobile`: Runs all mobile browsers from **__tests__/mobile/**
+-   **`test:multiple:mobile`**: Runs all mobile browsers from **__tests__/mobile/**
     folder in parallel.
 
--   `test:multiple:mobile:ui`: Same as `test:multiple:mobile` but with
+-   **`test:multiple:mobile:ui`**: Same as **`test:multiple:mobile`** but with
     a pretty interface.
 
--   `test:all`: Runs all tests from **desktop/** and **mobile/** folders
+-   **`test:all`**: Runs all tests from **desktop/** and **mobile/** folders
 
--   `cm`: Runs `Commitizen`, `Commitlint`, and `Husky` to create commits
+-   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create commits
     according to **Conventional Commits** standards.
 
 > [!TIP]
-> Scripts with the `:ui` suffix can also be used for detailed screenshots!
+> Scripts with the **`:ui`** suffix can also be used for detailed screenshots!
 
 > [!WARNING]
 > After you have finished testing close the browser by clicking on the cross icon,
@@ -134,42 +138,42 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 ## Settings
 
-In `core/playwright.config.ts` the minimum settings are set,
+In **`core/playwright.config.ts`** the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 and **Safari**.
 
-In the `core/settings.ts` you can change the path to the **main directory**
+In the **`core/settings.ts`** you can change the path to the **main directory**
 and enable or disable **devtools** for all tests you run.
 
 > By default, **devtools** are turned off.
 
 ## Authors
 
-See also the list of [Authors](AUTHORS.md).
+See also the list of [**Authors**](AUTHORS.md).
 
 ## Contributors
 
 If you want to improve something, you can write about it
-[here](https://github.com/Conqueror-Site-Builder/browtest/issues/new/choose).
+[**here**](https://github.com/Conqueror-Site-Builder/browtest/issues/new/choose).
 
-You can also view a list of [Contributors](CONTRIBUTORS.md).
+You can also view a list of [**Contributors**](CONTRIBUTORS.md).
 
 ## Contributing
 
-Please read [Contributing](CONTRIBUTING.md)
-and [Code of Conduct](CODE_OF_CONDUCT.md) for details,
-and the process for submitting Pull Requests to us.
+Please read [**Contributing**](CONTRIBUTING.md)
+and [**Code of Conduct**](CODE_OF_CONDUCT.md) for details,
+and the process for submitting **Pull Request** to us.
 
 ## Versioning
 
-We use [SemVer](https://semver.org) for versioning.
+We use [**SemVer**](https://semver.org) for versioning.
 You can see the available versions
-[here](https://github.com/Conqueror-Site-Builder/browtest/tags).
+[**here**](https://github.com/Conqueror-Site-Builder/browtest/tags).
 
 ## License
 
 This project is licensed under the MIT license - see the
-[LICENSE](LICENSE) for details.
+[**LICENSE**](LICENSE) for details.
 
 ## Acknowledgments
 
