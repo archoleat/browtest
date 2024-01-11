@@ -17,6 +17,8 @@
     "test:multiple:mobile": "playwright test __tests__/mobile -c core/playwright.config.ts",
     "test:multiple:mobile:ui": "npm run test:multiple:mobile -- --ui",
     "test:all": "playwright test -c core/playwright.config.ts",
+    "screenshot:all": "playwright test __tests__/screenshot.spec.ts -c core/playwright.config.ts",
+    "screenshot:clear": "rm -rf screenshots",
     "fix:prettier": "prettier . --write",
     "lint:editorconfig": "editorconfig-checker",
     "lint:remark": "remark . --quiet",
