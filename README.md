@@ -61,31 +61,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`init`**: Installs dependencies, **husky** and **playwright**.
 
--   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
-    checks all files in the project.
-
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
-    > workflow.
-
--   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
-
-    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/prettier.yml)
-    > workflow, **`prettier`** is run with the **`--check`** flag.
-    >
-    > Also run with a **`pre-commit`** hook.
-
--   **`lint:remark`**: Runs **`remark`** with the **`--quiet`** flag and
-    checks all markdown files.
-
-    > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml)
-    > workflow.
-
--   **`lint:eslint`**: Runs **`eslint`** with the flag **`--fix`**
-    for all **TypeScript** files.
-
-    > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
-    > workflow.
-
 -   **`test:safari:desktop`**: Runs **desktop Safari**.
 
 -   **`test:safari:desktop:ui`**: Same as **`test:safari:desktop`** but with
@@ -123,7 +98,32 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 -   **`test:multiple:mobile:ui`**: Same as **`test:multiple:mobile`** but with
     a pretty interface.
 
--   **`test:all`**: Runs all tests from **desktop/** and **mobile/** folders
+-   **`test:all`**: Runs all tests from **desktop/** and **mobile/** folders.
+
+-   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
+    checks all files in the project.
+
+    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
+    > workflow.
+
+-   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
+
+    > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/prettier.yml)
+    > workflow, **`prettier`** is run with the **`--check`** flag.
+    >
+    > Also run with a **`pre-commit`** hook.
+
+-   **`lint:remark`**: Runs **`remark`** with the **`--quiet`** flag and
+    checks all markdown files.
+
+    > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml)
+    > workflow.
+
+-   **`lint:eslint`**: Runs **`eslint`** with the flag **`--fix`**
+    for all **TypeScript** files.
+
+    > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
+    > workflow.
 
 -   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create commits
     according to **Conventional Commits** standards.
