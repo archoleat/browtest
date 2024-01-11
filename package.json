@@ -2,10 +2,6 @@
   "type": "module",
   "scripts": {
     "init": "npm i && husky install && playwright install",
-    "fix:prettier": "prettier . --write",
-    "lint:editorconfig": "editorconfig-checker",
-    "lint:remark": "remark . --quiet",
-    "lint:eslint": "eslint core/*.ts __tests__/**/*.spec.ts --fix",
     "test:safari:desktop": "playwright test __tests__/desktop/safari.spec.ts -c core/playwright.config.ts",
     "test:safari:desktop:ui": "npm run test:safari:desktop -- --ui",
     "test:safari:mobile": "playwright test __tests__/mobile/safari.spec.ts -c core/playwright.config.ts",
@@ -21,6 +17,10 @@
     "test:multiple:mobile": "playwright test __tests__/mobile -c core/playwright.config.ts",
     "test:multiple:mobile:ui": "npm run test:multiple:mobile -- --ui",
     "test:all": "playwright test -c core/playwright.config.ts",
+    "fix:prettier": "prettier . --write",
+    "lint:editorconfig": "editorconfig-checker",
+    "lint:remark": "remark . --quiet",
+    "lint:eslint": "eslint core/*.ts __tests__/**/*.spec.ts --fix",
     "cm": "cz"
   },
   "dependencies": {
@@ -31,7 +31,6 @@
     "@commitlint/config-conventional": "*",
     "@semantic-release/changelog": "*",
     "@semantic-release/git": "*",
-    "@types/node": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "conventional-changelog-conventionalcommits": "*",
@@ -51,7 +50,6 @@
     "remark-preset-lint-markdown-style-guide": "*",
     "remark-preset-lint-recommended": "*",
     "semantic-release": "*",
-    "ts-node": "*",
     "typescript": "*"
   }
 }
