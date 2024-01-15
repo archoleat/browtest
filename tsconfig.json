@@ -16,6 +16,6 @@
     "noUnusedParameters": true,
     "strict": true,
     "target": "ES6",
-    "types": ["playwright"]
+    "types": ["mocha"]
   }
 }
