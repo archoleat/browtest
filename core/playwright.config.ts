@@ -8,9 +8,10 @@ export default defineConfig({
   workers: 3,
   expect: { timeout: 30000 },
   use: {
-    baseURL: 'http://localhost:3000/',
+    baseURL: 'http://localhost:3000',
     bypassCSP: true,
     headless: false,
+    screenshot: 'only-on-failure',
     trace: 'on-first-retry',
   },
 });

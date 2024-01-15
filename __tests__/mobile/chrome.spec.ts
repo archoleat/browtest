@@ -5,15 +5,17 @@ import { test } from '@playwright/test';
 import settings from '../../core/settings';
 
 // https://playwright.dev/docs/writing-tests
-test('Mobile Chrome', async () => {
-  const browser = await chromium.launch({
-    devtools: settings.devTools,
-  });
-  const context = await browser.newContext({
-    ...devices['Pixel 7'],
-  });
-  const page = await context.newPage();
+describe('Mobile Chrome', () => {
+  test('Test', async () => {
+    const browser = await chromium.launch({
+      devtools: settings.devTools,
+    });
+    const context = await browser.newContext({
+      ...devices['Pixel 7'],
+    });
+    const page = await context.newPage();
 
-  await page.goto(settings.rootFolder);
-  await page.pause();
+    await page.goto(settings.rootFolder);
+    await page.pause();
+  });
 });

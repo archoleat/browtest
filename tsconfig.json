@@ -15,6 +15,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "types": ["playwright"]
+    "target": "ES6",
+    "types": ["mocha"]
   }
 }

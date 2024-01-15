@@ -100,6 +100,10 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`test:all`**: Runs all tests from **desktop/** and **mobile/** folders.
 
+-   **`screenshot:all`**: Creates screenshots for all desktop browsers.
+
+-   **`clear:results`**: Clears the test results folder.
+
 -   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
     checks all files in the project.
 
@@ -127,14 +131,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create commits
     according to **Conventional Commits** standards.
-
-> [!TIP]
-> Scripts with the **`:ui`** suffix can also be used for detailed screenshots!
-
-> [!WARNING]
-> After you have finished testing close the browser by clicking on the cross icon,
-> if you finish the process through the console then the playwright process will
-> run in the background overloading your PC.
 
 ## Settings
 
