@@ -86,14 +86,14 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 -   **`test:chrome:mobile:ui`**: Same as **`test:chrome:mobile`** but with
     a pretty interface.
 
--   **`test:multiple:desktop`**: Runs all desktop browsers from **__tests__/desktop/**
-    folder in parallel.
+-   **`test:multiple:desktop`**: Runs all desktop browsers from
+    **\_\_tests\_\_/desktop/** folder in parallel.
 
 -   **`test:multiple:desktop:ui`**: Same as **`test:multiple:desktop`** but with
     a pretty interface.
 
--   **`test:multiple:mobile`**: Runs all mobile browsers from **__tests__/mobile/**
-    folder in parallel.
+-   **`test:multiple:mobile`**: Runs all mobile browsers from
+    **\_\_tests\_\_/mobile/** folder in parallel.
 
 -   **`test:multiple:mobile:ui`**: Same as **`test:multiple:mobile`** but with
     a pretty interface.
@@ -129,8 +129,8 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
     > workflow.
 
--   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create commits
-    according to **Conventional Commits** standards.
+-   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create
+    commits according to **Conventional Commits** standards.
 
 ## Settings
 
