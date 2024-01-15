@@ -33,7 +33,6 @@
     "@commitlint/config-conventional": "*",
     "@semantic-release/changelog": "*",
     "@semantic-release/git": "*",
-    "@types/mocha": "*",
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
     "conventional-changelog-conventionalcommits": "*",

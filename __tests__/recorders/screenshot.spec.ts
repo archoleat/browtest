@@ -4,24 +4,24 @@ import { test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
-describe('Create Screenshots', () => {
-  test('Chrome, Firefox, Safari', async () => {
-    for (const browserType of [chromium, firefox, webkit]) {
-      const browser = await browserType.launch();
-      const page = await browser.newPage();
+test('Create Screenshots for Chrome, Firefox, Safari', async () => {
+  const browserEngine = [chromium, firefox, webkit];
 
-      await page.goto(settings.rootFolder);
+  for (const browserType of browserEngine) {
+    const browser = await browserType.launch();
+    const page = await browser.newPage();
 
-      for (const browserName of ['chromium', 'firefox', 'webkit']) {
-        await page.screenshot({
-          path: `${
-            settings.resultsFolder
-          }/screenshots/screenshot-${browserName}-${crypto.randomUUID()}.png`,
-          fullPage: true,
-        });
-      }
+    await page.goto(settings.rootFolder);
 
-      await browser.close();
+    for (const browserName of ['chromium', 'firefox', 'webkit']) {
+      await page.screenshot({
+        path: `${
+          settings.resultsFolder
+        }/screenshots/screenshot-${browserName}-${crypto.randomUUID()}.png`,
+        fullPage: true,
+      });
     }
-  });
+
+    await browser.close();
+  }
 });
