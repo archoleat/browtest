@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.1.0...v1.1.1) (2024-01-17)
+
+
+### Bug Fixes
+
+* **tests:** remove `describe` ([#27](https://github.com/Conqueror-Site-Builder/browtest/issues/27)) ([b6ff926](https://github.com/Conqueror-Site-Builder/browtest/commit/b6ff92641d222528b51d3ef1428c5c7c58296434))
+
 ## [1.1.0](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.0.0...v1.1.0) (2024-01-15)
 
 
