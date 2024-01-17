@@ -1,6 +1,5 @@
 // @ts-check
-import { chromium, devices } from 'playwright';
-import { test } from '@playwright/test';
+import { chromium, devices, test } from '@playwright/test';
 
 import settings from '../../core/settings';
 

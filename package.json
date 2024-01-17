@@ -45,7 +45,6 @@
     "eslint-plugin-unicorn": "*",
     "husky": "*",
     "lint-staged": "*",
-    "playwright": "*",
     "prettier": "*",
     "remark-cli": "*",
     "remark-preset-lint-consistent": "*",

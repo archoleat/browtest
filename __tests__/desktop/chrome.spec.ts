@@ -1,6 +1,5 @@
 // @ts-check
-import { chromium } from 'playwright';
-import { test } from '@playwright/test';
+import { chromium, test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
