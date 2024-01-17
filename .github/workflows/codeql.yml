@@ -12,12 +12,12 @@ on:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'core/**/*.ts'
   push:
     branches:
       - main
     paths:
-      - '**/*.ts'
+      - 'core/**/*.ts'
 
 permissions:
   actions: read
@@ -27,6 +27,7 @@ permissions:
 jobs:
   codeql:
     name: Analyze
+
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
