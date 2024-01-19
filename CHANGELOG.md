@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.1.1...v1.2.0) (2024-01-19)
+
+
+### Features
+
+* add `husky` as submodule ([#40](https://github.com/Conqueror-Site-Builder/browtest/issues/40)) ([7a626ce](https://github.com/Conqueror-Site-Builder/browtest/commit/7a626ce448f51c9ae98ab09eaac78815a9aea939))
+
 ## [1.1.1](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.1.0...v1.1.1) (2024-01-17)
 
 
