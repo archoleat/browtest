@@ -1,6 +1,13 @@
 name: Release
 
 on:
+  workflow_run:
+    workflows:
+      - Editorconfig
+      - ESLint
+      - Prettier
+    types:
+      - completed
   push:
     branches:
       - main
@@ -11,6 +18,8 @@ jobs:
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Generate Token
