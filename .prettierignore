@@ -1,5 +1,6 @@
 .ecrc
 .eslintignore
 .gitignore
+.gitmodules
 .prettierignore
 *.md
