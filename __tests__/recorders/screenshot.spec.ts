@@ -3,14 +3,14 @@ import { chromium, firefox, webkit, test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
-test('Create Screenshots for Chrome, Firefox, Safari', async () => {
+test('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
-  const promises: Array<object> = [];
+  const screenshotPromises: Array<object> = [];
 
   browserEngines.forEach((engine) => {
     const browserName = engine.name();
 
-    const screenCapture = async () => {
+    const takeScreenshot = async () => {
       const browser = await engine.launch();
       const page = await browser.newPage();
 
@@ -26,8 +26,8 @@ test('Create Screenshots for Chrome, Firefox, Safari', async () => {
       await browser.close();
     };
 
-    promises.push(screenCapture());
+    screenshotPromises.push(takeScreenshot());
   });
 
-  await Promise.all(promises);
+  await Promise.all(screenshotPromises);
 });
