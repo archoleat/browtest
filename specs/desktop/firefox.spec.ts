@@ -1,5 +1,6 @@
 // @ts-check
-import { firefox, test } from '@playwright/test';
+import { firefox } from 'playwright';
+import { test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
