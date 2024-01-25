@@ -1,5 +1,48 @@
 # Changelog
 
+## [2.0.0](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.2.0...v2.0.0) (2024-01-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* **specs:** rename folder '__tests__' (#62)
+
+### Documentation
+
+* **readme:** add `husky` section ([#56](https://github.com/Conqueror-Site-Builder/browtest/issues/56)) ([b522da8](https://github.com/Conqueror-Site-Builder/browtest/commit/b522da8d21561c2ef3da0c1e071e5d4d115107ab))
+
+
+### Miscellaneous Chores
+
+* **deps-dev:** bump @commitlint/cli from 18.4.4 to 18.5.0 ([#45](https://github.com/Conqueror-Site-Builder/browtest/issues/45)) ([2a99662](https://github.com/Conqueror-Site-Builder/browtest/commit/2a99662e89e57cc5678951738b985837af302bb7))
+* **deps-dev:** bump @commitlint/config-conventional from 18.4.4 to 18.5.0 ([#46](https://github.com/Conqueror-Site-Builder/browtest/issues/46)) ([6f458c3](https://github.com/Conqueror-Site-Builder/browtest/commit/6f458c3db5885eb60b4b0d27651981b0ef4d605b))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin ([0c25b1d](https://github.com/Conqueror-Site-Builder/browtest/commit/0c25b1ddf376864af0b5bf6d41a37bb8033b10ad))
+* **deps-dev:** bump @typescript-eslint/eslint-plugin from 6.19.0 to 6.19.1 ([#49](https://github.com/Conqueror-Site-Builder/browtest/issues/49)) ([2bfd5fa](https://github.com/Conqueror-Site-Builder/browtest/commit/2bfd5fa87ad8d1c92f953ef318cd5a6bb61009e1)), closes [#8235](https://github.com/Conqueror-Site-Builder/browtest/issues/8235) [#8237](https://github.com/Conqueror-Site-Builder/browtest/issues/8237) [#8237](https://github.com/Conqueror-Site-Builder/browtest/issues/8237)
+* **deps-dev:** bump @typescript-eslint/parser from 6.19.0 to 6.19.1 ([761527c](https://github.com/Conqueror-Site-Builder/browtest/commit/761527c417adb494be2991dacb903ca92b45fa0d))
+* **deps-dev:** bump @typescript-eslint/parser from 6.19.0 to 6.19.1 ([#50](https://github.com/Conqueror-Site-Builder/browtest/issues/50)) ([ac1633d](https://github.com/Conqueror-Site-Builder/browtest/commit/ac1633d8ba56c6b86bbec28b799c82a1a1ddc140)), closes [#8235](https://github.com/Conqueror-Site-Builder/browtest/issues/8235) [#8237](https://github.com/Conqueror-Site-Builder/browtest/issues/8237)
+* **deps:** bump @playwright/test from 1.41.0 to 1.41.1 ([#44](https://github.com/Conqueror-Site-Builder/browtest/issues/44)) ([671e498](https://github.com/Conqueror-Site-Builder/browtest/commit/671e49837499fbb664ac3d5875d0cba99b03bc64))
+* **deps:** update ([#54](https://github.com/Conqueror-Site-Builder/browtest/issues/54)) ([3f965ef](https://github.com/Conqueror-Site-Builder/browtest/commit/3f965ef148a14e40c5e5d8fbb02ecd15d2d8ff91))
+
+
+### Code Refactoring
+
+* **commitlint-config:** move to `rc` file ([#51](https://github.com/Conqueror-Site-Builder/browtest/issues/51)) ([92157a4](https://github.com/Conqueror-Site-Builder/browtest/commit/92157a4930ea58c77225b8d82ca84fc8af97bf46))
+* **eslint:** add parser option ([#55](https://github.com/Conqueror-Site-Builder/browtest/issues/55)) ([f3446cb](https://github.com/Conqueror-Site-Builder/browtest/commit/f3446cbc46b6908c9436eddc0745ae278cf9e00d))
+* **gitmodules:** convert tabs to spaces ([#43](https://github.com/Conqueror-Site-Builder/browtest/issues/43)) ([c3cba38](https://github.com/Conqueror-Site-Builder/browtest/commit/c3cba3801d696e49aa539fdd79acb749e58785b8))
+* **releaserc:** add presetConfig ([#52](https://github.com/Conqueror-Site-Builder/browtest/issues/52)) ([b498421](https://github.com/Conqueror-Site-Builder/browtest/commit/b498421c8ec3f3f7c3b3becdb9ac28eba98408a5))
+* remove `video.spec.ts` ([#41](https://github.com/Conqueror-Site-Builder/browtest/issues/41)) ([0b95abe](https://github.com/Conqueror-Site-Builder/browtest/commit/0b95abe5fd27f6d5d602fd841e283c2e2eae8d75))
+* **specs:** rename folder '__tests__' ([#62](https://github.com/Conqueror-Site-Builder/browtest/issues/62)) ([b766815](https://github.com/Conqueror-Site-Builder/browtest/commit/b766815e9039c37083d62ab2aec378c3732197f0))
+* **specs:** rename folder '__tests__' to 'specs' BREAKING CHANGE: Rename folder '__tests__' to 'specs' ([#57](https://github.com/Conqueror-Site-Builder/browtest/issues/57)) ([1fdec98](https://github.com/Conqueror-Site-Builder/browtest/commit/1fdec98166c284e95732df6822863d82cd33bfca))
+* **specs:** rename folder '__tests__'BREAKING CHANGE: Rename folder '__tests__' to 'specs' ([#61](https://github.com/Conqueror-Site-Builder/browtest/issues/61)) ([bf9fa8c](https://github.com/Conqueror-Site-Builder/browtest/commit/bf9fa8c9989f31d8b05aa9a4926766ea3170067b))
+* variables names ([#42](https://github.com/Conqueror-Site-Builder/browtest/issues/42)) ([0546a37](https://github.com/Conqueror-Site-Builder/browtest/commit/0546a37732989d186b32a91de397f58004c8a39d))
+
+
+### Continuous Integration
+
+* add `dependabot-auto-merge` ([#48](https://github.com/Conqueror-Site-Builder/browtest/issues/48)) ([caf617c](https://github.com/Conqueror-Site-Builder/browtest/commit/caf617c5f404dc62a19fd3c46ce52c936f0ec207))
+* small changes ([#53](https://github.com/Conqueror-Site-Builder/browtest/issues/53)) ([3e054ed](https://github.com/Conqueror-Site-Builder/browtest/commit/3e054ed43a6df4c25fb316e9bc8a81d12bf88cbf))
+* sort properties ([#47](https://github.com/Conqueror-Site-Builder/browtest/issues/47)) ([149e644](https://github.com/Conqueror-Site-Builder/browtest/commit/149e644aa9ab6dfc73880b9258cb5e06013a0015))
+
 ## [1.2.0](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.1.1...v1.2.0) (2024-01-19)
 
 
