@@ -1,13 +1,15 @@
 // @ts-check
-import { chromium, firefox, webkit, test } from '@playwright/test';
+import { chromium, firefox, webkit } from 'playwright';
+import { test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
+// https://playwright.dev/docs/writing-tests
 test('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
   const screenshotPromises: Array<object> = [];
 
-  browserEngines.forEach((engine) => {
+  for (const engine of browserEngines) {
     const browserName = engine.name();
 
     const takeScreenshot = async () => {
@@ -27,7 +29,7 @@ test('Take screenshots for Chrome, Firefox, and Safari', async () => {
     };
 
     screenshotPromises.push(takeScreenshot());
-  });
+  }
 
   await Promise.all(screenshotPromises);
 });

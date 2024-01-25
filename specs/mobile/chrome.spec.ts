@@ -1,15 +1,16 @@
 // @ts-check
-import { webkit, devices, test } from '@playwright/test';
+import { chromium, devices } from 'playwright';
+import { test } from '@playwright/test';
 
 import settings from '../../core/settings';
 
 // https://playwright.dev/docs/writing-tests
-test('Mobile Safari', async () => {
-  const browser = await webkit.launch({
+test('Mobile Chrome', async () => {
+  const browser = await chromium.launch({
     devtools: settings.devTools,
   });
   const context = await browser.newContext({
-    ...devices['iPhone 14'],
+    ...devices['Pixel 7'],
   });
   const page = await context.newPage();
 
