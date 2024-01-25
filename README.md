@@ -10,23 +10,27 @@
 
 ## Table of Contents
 
--   [Getting Started](#getting-started)
--   [Features](#features)
--   [Package.json scripts](#packagejson-scripts)
--   [Settings](#settings)
--   [Authors](#authors)
--   [Contributors](#contributors)
--   [Contributing](#contributing)
--   [Versioning](#versioning)
--   [License](#license)
--   [Acknowledgments](#acknowledgments)
+-   [Browtest](#browtest)
+    -   [Table of Contents](#table-of-contents)
+    -   [**Make cross-browser checking more convenient!**](#make-cross-browser-checking-more-convenient)
+    -   [Getting Started](#getting-started)
+    -   [Features](#features)
+    -   [Package.json scripts](#packagejson-scripts)
+    -   [Settings](#settings)
+    -   [Husky](#husky)
+    -   [Authors](#authors)
+    -   [Contributors](#contributors)
+    -   [Contributing](#contributing)
+    -   [Versioning](#versioning)
+    -   [License](#license)
+    -   [Acknowledgments](#acknowledgments)
 
 ## **Make cross-browser checking more convenient!**
 
 This project is built on [**Playwright**](https://github.com/microsoft/playwright)
 and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template).
 
-> [!TIP]
+> \[!TIP]
 > Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
 > or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template)!
 
@@ -41,7 +45,7 @@ and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conq
 
 1.  Start the local server.
 
-1.  After all steps start **browtest**.
+1.  After all steps start **Browtest**.
 
     > [**Learn more**](#packagejson-scripts) about the available modes.
 
@@ -54,12 +58,12 @@ about the available modes.
 Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 (**Chromium**) Edge and Chrome and their mobile versions.
 
-> [!WARNING]
+> \[!WARNING]
 > **There is no support for mobile Firefox in playwright!**
 
 ## Package.json scripts
 
--   **`init`**: Installs dependencies, **husky** and **playwright**.
+-   **`init`**: Installs dependencies, **Husky** and **Playwright**.
 
 -   **`test:safari:desktop`**: Runs **desktop Safari**.
 
@@ -87,13 +91,13 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     a pretty interface.
 
 -   **`test:multiple:desktop`**: Runs all desktop browsers from
-    **\_\_tests\_\_/desktop/** folder in parallel.
+    **specs/desktop/** folder in parallel.
 
 -   **`test:multiple:desktop:ui`**: Same as **`test:multiple:desktop`** but with
     a pretty interface.
 
 -   **`test:multiple:mobile`**: Runs all mobile browsers from
-    **\_\_tests\_\_/mobile/** folder in parallel.
+    **specs/mobile/** folder in parallel.
 
 -   **`test:multiple:mobile:ui`**: Same as **`test:multiple:mobile`** but with
     a pretty interface.
@@ -102,9 +106,12 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`screenshot:all`**: Creates screenshots for all desktop browsers.
 
+    > Screenshots are saved at
+    > `test-results/screenshots/{browserEngineName}-{dateNow}.png.`
+
 -   **`clear:results`**: Clears the test results folder.
 
--   **`lint:editorconfig`**: Runs **`editorconfig-checker`** and
+-   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
     checks all files in the project.
 
     > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
@@ -117,13 +124,13 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     >
     > Also run with a **`pre-commit`** hook.
 
--   **`lint:remark`**: Runs **`remark`** with the **`--quiet`** flag and
+-   **`lint:markdown`**: Runs **`Remark`** with the **`--quiet`** flag and
     checks all markdown files.
 
     > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml)
     > workflow.
 
--   **`lint:eslint`**: Runs **`eslint`** with the flag **`--fix`**
+-   **`lint:ts`**: Runs **`ESLint`** with the flag **`--fix`**
     for all **TypeScript** files.
 
     > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
@@ -142,6 +149,11 @@ In the **`core/settings.ts`** you can change the path to the **main directory**
 and enable or disable **devtools** for all tests you run.
 
 > By default, **devtools** are turned off.
+
+## Husky
+
+This repository uses **.husky** as a submodule.
+**.husky** runs `pre commit` hook and `lint commit message`.
 
 ## Authors
 
