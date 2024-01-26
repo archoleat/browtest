@@ -3,9 +3,7 @@ name: Release
 on:
   workflow_run:
     workflows:
-      - Editorconfig
       - ESLint
-      - Prettier
     types:
       - completed
   push:
