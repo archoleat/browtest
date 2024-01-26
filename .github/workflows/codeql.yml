@@ -6,11 +6,13 @@ on:
       - main
     paths:
       - 'core/**/*.ts'
+      - 'specs/**/*.ts'
   push:
     branches:
       - main
     paths:
       - 'core/**/*.ts'
+      - 'specs/**/*.ts'
 
 permissions:
   actions: read
