@@ -7,7 +7,7 @@ export default defineConfig({
   reporter: 'html',
   testDir: '../specs',
   workers: 3,
-  expect: { timeout: 30000 },
+  expect: { timeout: 30_000 },
   use: {
     baseURL: 'http://localhost:3000',
     bypassCSP: true,
