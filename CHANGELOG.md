@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.2](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.1...v2.0.2) (2024-01-26)
+
+
+### Bug Fixes
+
+* **release:** add `type` instead `tag` ([#65](https://github.com/Conqueror-Site-Builder/browtest/issues/65)) ([3441d0d](https://github.com/Conqueror-Site-Builder/browtest/commit/3441d0d3464a53f66522d15eb288c5197c87fef6))
+
+
+### Code Refactoring
+
+* **releaserc:** hidden last sections ([#64](https://github.com/Conqueror-Site-Builder/browtest/issues/64)) ([c2da532](https://github.com/Conqueror-Site-Builder/browtest/commit/c2da532476665d13dd0f30e24e6d794ac7e82d3b))
+
 ## [2.0.1](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.0...v2.0.1) (2024-01-26)
 
 
