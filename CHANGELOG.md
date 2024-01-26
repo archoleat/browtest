@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.2...v2.0.3) (2024-01-26)
+
+
+### Code Refactoring
+
+* **pw-config:** add numeric separator ([#66](https://github.com/Conqueror-Site-Builder/browtest/issues/66)) ([0ff749f](https://github.com/Conqueror-Site-Builder/browtest/commit/0ff749f524b6cd79508007350479e71352862bb2))
+
 ## [2.0.2](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.1...v2.0.2) (2024-01-26)
 
 
