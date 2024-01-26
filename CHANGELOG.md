@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.0...v2.0.1) (2024-01-26)
+
+
+### Bug Fixes
+
+* **releaserc:** add more types ([#63](https://github.com/Conqueror-Site-Builder/browtest/issues/63)) ([28c9acb](https://github.com/Conqueror-Site-Builder/browtest/commit/28c9acbd629c508ecb1c06a0d536bf06a39b1f33))
+
 ## [2.0.0](https://github.com/Conqueror-Site-Builder/browtest/compare/v1.2.0...v2.0.0) (2024-01-25)
 
 
