@@ -1,5 +1,19 @@
 # Changelog
 
+## [2.0.4](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.3...v2.0.4) (2024-02-01)
+
+
+### Code Refactoring
+
+* ***rc:** rename to `*.config.js` ([#70](https://github.com/Conqueror-Site-Builder/browtest/issues/70)) ([5af9559](https://github.com/Conqueror-Site-Builder/browtest/commit/5af9559cb2e807a26e280568bd311b8a2b0b77dd))
+* **playwright.config:** move from `core` folder ([#72](https://github.com/Conqueror-Site-Builder/browtest/issues/72)) ([2fa9c79](https://github.com/Conqueror-Site-Builder/browtest/commit/2fa9c79bc356c58c96b559867eae6667faef56fd))
+* **settings:** rename to `common-specs-settings` ([#71](https://github.com/Conqueror-Site-Builder/browtest/issues/71)) ([16bab6c](https://github.com/Conqueror-Site-Builder/browtest/commit/16bab6cc68250dee8d9b896729cdc9a3c2393716))
+
+
+### Documentation
+
+* **readme:** update ([#73](https://github.com/Conqueror-Site-Builder/browtest/issues/73)) ([ac952f6](https://github.com/Conqueror-Site-Builder/browtest/commit/ac952f6bb3a9432f8a997bdc0c7d82ec33af8af8))
+
 ## [2.0.3](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.2...v2.0.3) (2024-01-26)
 
 
