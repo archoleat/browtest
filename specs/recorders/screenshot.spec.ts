@@ -2,7 +2,7 @@
 import { chromium, firefox, webkit } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/settings';
+import settings from '../../core/common-specs-settings';
 
 // https://playwright.dev/docs/writing-tests
 test('Take screenshots for Chrome, Firefox, and Safari', async () => {
