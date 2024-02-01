@@ -4,7 +4,6 @@ import { test } from '@playwright/test';
 
 import settings from '../../core/common-specs-settings';
 
-// https://playwright.dev/docs/writing-tests
 test('Desktop Safari', async () => {
   const browser = await webkit.launch({
     devtools: settings.devTools,

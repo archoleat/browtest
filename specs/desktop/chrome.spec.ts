@@ -4,7 +4,6 @@ import { test } from '@playwright/test';
 
 import settings from '../../core/common-specs-settings';
 
-// https://playwright.dev/docs/writing-tests
 test('Desktop Chrome', async () => {
   const browser = await chromium.launch({
     devtools: settings.devTools,

@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "init": "npm i && husky install && playwright install",
+    "init": "npm i && husky install && playwright install && git submodule init && git submodule update",
     "test:safari:desktop": "playwright test specs/desktop/safari.spec.ts",
     "test:safari:mobile": "playwright test specs/mobile/safari.spec.ts",
     "test:firefox:desktop": "playwright test specs/desktop/firefox.spec.ts",
@@ -11,9 +11,10 @@
     "test:multiple:mobile": "playwright test specs/mobile",
     "test:all": "playwright test",
     "screenshot:all": "playwright test specs/recorders/screenshot.spec.ts",
-    "fix:prettier": "prettier . --write",
+    "format": "prettier . --write",
+    "lint:formatting": "prettier . --check",
     "lint:editorconfig": "editorconfig-checker",
-    "lint:markdown": "remark . --quiet",
+    "lint:md": "remark . --quiet",
     "lint:ts": "eslint **/*.ts --fix",
     "commit": "cz"
   },

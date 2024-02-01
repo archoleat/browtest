@@ -4,7 +4,6 @@ import { test } from '@playwright/test';
 
 import settings from '../../core/common-specs-settings';
 
-// https://playwright.dev/docs/writing-tests
 test('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
   const screenshotPromises: Array<object> = [];
