@@ -40,7 +40,7 @@ and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conq
 
 1.  Install dependencies.
 
-1.  Change the **url** address in the **`core/playwright.config.ts`** file
+1.  Change the **url** address in the **`playwright.config.ts`** file
     if necessary.
 
 1.  Start the local server.
@@ -67,40 +67,19 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`test:safari:desktop`**: Runs **desktop Safari**.
 
--   **`test:safari:desktop:ui`**: Same as **`test:safari:desktop`** but with
-    a pretty interface.
-
 -   **`test:safari:mobile`**: Runs **mobile Safari**.
-
--   **`test:safari:mobile:ui`**: Same as **`test:safari:mobile`** but with
-    a pretty interface.
 
 -   **`test:firefox:desktop`**: Runs **desktop Firefox**.
 
--   **`test:firefox:desktop:ui`**: Same as **`test:firefox:desktop`** but with
-    a pretty interface.
-
 -   **`test:chrome:desktop`**: Runs **desktop Chrome**.
 
--   **`test:chrome:desktop:ui`**: Same as **`test:chrome:desktop`** but with
-    a pretty interface.
-
 -   **`test:chrome:mobile`**: Runs **mobile Chrome**.
-
--   **`test:chrome:mobile:ui`**: Same as **`test:chrome:mobile`** but with
-    a pretty interface.
 
 -   **`test:multiple:desktop`**: Runs all desktop browsers from
     **specs/desktop/** folder in parallel.
 
--   **`test:multiple:desktop:ui`**: Same as **`test:multiple:desktop`** but with
-    a pretty interface.
-
 -   **`test:multiple:mobile`**: Runs all mobile browsers from
     **specs/mobile/** folder in parallel.
-
--   **`test:multiple:mobile:ui`**: Same as **`test:multiple:mobile`** but with
-    a pretty interface.
 
 -   **`test:all`**: Runs all tests from **desktop/** and **mobile/** folders.
 
@@ -109,20 +88,18 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Screenshots are saved at
     > `test-results/screenshots/{browserEngineName}-{dateNow}.png.`
 
--   **`clear:results`**: Clears the test results folder.
-
--   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
-    checks all files in the project.
-
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
-    > workflow.
-
 -   **`fix:prettier`**: Runs **`Prettier`** with the **`--write`** flag.
 
     > In the [`prettier.yml`](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/prettier.yml)
     > workflow, **`prettier`** is run with the **`--check`** flag.
     >
     > Also run with a **`pre-commit`** hook.
+
+-   **`lint:editorconfig`**: Runs **`Editorconfig Checker`** and
+    checks all files in the project.
+
+    > Also runs with the [**`editorconfig.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/editorconfig.yml)
+    > workflow.
 
 -   **`lint:markdown`**: Runs **`Remark`** with the **`--quiet`** flag and
     checks all markdown files.
@@ -136,17 +113,18 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Also runs with the [**`eslint.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/eslint.yml)
     > workflow.
 
--   **`cm`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to create
-    commits according to **Conventional Commits** standards.
+-   **`commit`**: Runs **`Commitizen`**, **`Commitlint`**, and **`Husky`** to
+    create commits according to **Conventional Commits** standards.
 
 ## Settings
 
-In **`core/playwright.config.ts`** the minimum settings are set,
+In **`playwright.config.ts`** the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 and **Safari**.
 
-In the **`core/settings.ts`** you can change the path to the **main directory**
-and enable or disable **devtools** for all tests you run.
+In the **`core/common-specs-settings.ts`** you can change the path
+to the **main directory** and enable or disable **devtools** for
+all tests you run.
 
 > By default, **devtools** are turned off.
 
