@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.5](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.4...v2.0.5) (2024-02-01)
+
+
+### Styles
+
+* add format and standards ([#74](https://github.com/Conqueror-Site-Builder/browtest/issues/74)) ([784c086](https://github.com/Conqueror-Site-Builder/browtest/commit/784c086e6fc8095f913bf8f84ed84a933ceee86f))
+
 ## [2.0.4](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.3...v2.0.4) (2024-02-01)
 
 
