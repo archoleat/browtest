@@ -1,7 +1,5 @@
-const settings = {
+export default {
   devTools: false,
   resultsFolder: 'test-results',
   rootFolder: '/',
 };
-
-export default settings;
