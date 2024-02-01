@@ -1,7 +1,5 @@
 import { defineConfig } from '@playwright/test';
 
-// https://playwright.dev/docs/test-configuration
-// https://playwright.dev/docs/best-practices
 export default defineConfig({
   fullyParallel: true,
   reporter: 'html',
