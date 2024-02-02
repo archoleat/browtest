@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.7](https://github.com/Archoleat/browtest/compare/v2.0.6...v2.0.7) (2024-02-02)
+
+
+### Code Refactoring
+
+* **name:** change org name ([#76](https://github.com/Archoleat/browtest/issues/76)) ([0bb356e](https://github.com/Archoleat/browtest/commit/0bb356ef2f7d0edd205f11b95720d1ed3beaf29e))
+
 ## [2.0.6](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.5...v2.0.6) (2024-02-02)
 
 
