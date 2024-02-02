@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.8](https://github.com/Archoleat/browtest/compare/v2.0.7...v2.0.8) (2024-02-02)
+
+
+### Code Refactoring
+
+* **prettierignore:** remove `license` ([#77](https://github.com/Archoleat/browtest/issues/77)) ([20b6787](https://github.com/Archoleat/browtest/commit/20b678710028239fc681d7c2a50ceff7240b9d09))
+
 ## [2.0.7](https://github.com/Archoleat/browtest/compare/v2.0.6...v2.0.7) (2024-02-02)
 
 
