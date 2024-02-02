@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.6](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.5...v2.0.6) (2024-02-02)
+
+
+### Code Refactoring
+
+* small changes ([#75](https://github.com/Conqueror-Site-Builder/browtest/issues/75)) ([5dcf5b2](https://github.com/Conqueror-Site-Builder/browtest/commit/5dcf5b2c6982957f240ed5e0e44a6f524604d1e5))
+
 ## [2.0.5](https://github.com/Conqueror-Site-Builder/browtest/compare/v2.0.4...v2.0.5) (2024-02-01)
 
 
