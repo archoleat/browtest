@@ -2,6 +2,7 @@
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/core/commitlint.yml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/codeql.yml?label=CodeQL)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/editorconfig.yml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/Conqueror-Site-Builder/browtest/prettier.yml?label=Prettier)
@@ -11,27 +12,38 @@
 ## Table of Contents
 
 -   [Table of Contents](#table-of-contents)
--   [**Make cross-browser checking more convenient!**](#make-cross-browser-checking-more-convenient)
+
 -   [Getting Started](#getting-started)
+
 -   [Features](#features)
--   [Package.json scripts](#packagejson-scripts)
+
+-   [Scripts](#scripts)
+
 -   [Settings](#settings)
--   [Husky](#husky)
+
+-   [Additions](#additions)
+    -   [Husky](#husky)
+
 -   [Authors](#authors)
+
 -   [Contributors](#contributors)
+
 -   [Contributing](#contributing)
+
 -   [Versioning](#versioning)
+
 -   [License](#license)
+
 -   [Acknowledgments](#acknowledgments)
 
 ## **Make cross-browser checking more convenient!**
 
 This project is built on [**Playwright**](https://github.com/microsoft/playwright)
-and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest).
+and [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template).
 
 > \[!TIP]
 > Nice addition for [**Conqueror**](https://github.com/Conqueror-Site-Builder/conqueror)
-> or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/browtest)!
+> or [**Conqueror Repo Template**](https://github.com/Conqueror-Site-Builder/conqueror-repo-template)!
 
 ## Getting Started
 
@@ -60,7 +72,7 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 > \[!WARNING]
 > **There is no support for mobile Firefox in playwright!**
 
-## Package.json scripts
+## Scripts
 
 -   **`init`**: Installs dependencies, **Husky**, **Playwright**
     and update submodules.
@@ -105,7 +117,7 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > workflow.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
-    checks all **markdown** files.
+    checks all **Markdown** files.
 
     > Also runs with the [**`markdown.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/markdown.yml)
     > workflow.
@@ -123,8 +135,8 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Also runs using the [**`mocha.yml`**](https://github.com/Conqueror-Site-Builder/browtest/blob/main/.github/workflows/mocha.yml)
     > workflow.
 
--   **`commit`**: Runs **Commitizen**, **Commitlint**, and **Husky** to
-    create commits according to **Conventional Commits** standards.
+-   **`commit`**: Runs **Commitlint** to create commits according to
+    **Conventional Commits** standards.
 
 ## Settings
 
@@ -138,10 +150,12 @@ all tests you run.
 
 > By default, **devtools** are turned off.
 
-## Husky
+## Additions
+
+### Husky
 
 This repository uses **.husky** as a submodule.
-**.husky** runs `pre-commit` hook and `commit-msg`.
+**.husky** runs **`pre-commit`** hook and **`commit-msg`**.
 
 ## Authors
 
