@@ -34,16 +34,13 @@
 
 -   [License](#license)
 
--   [Acknowledgments](#acknowledgments)
-
 ## **Make cross-browser checking more convenient!**
 
 This project is built on [**Playwright**](https://github.com/microsoft/playwright)
 and [**Archoleat Repo Template**](https://github.com/Archoleat/archoleat-repo-template).
 
 > \[!TIP]
-> Nice addition for [**Archoleat**](https://github.com/Archoleat/archoleat)
-> or [**Archoleat Repo Template**](https://github.com/Archoleat/archoleat-repo-template)!
+> Nice addition for [**Archoleat Builder**](https://github.com/Archoleat/archoleat-builder)!
 
 ## Getting Started
 
@@ -184,7 +181,3 @@ You can see the available versions
 
 This project is licensed under the MIT license - see the
 [**LICENSE**](LICENSE) for details.
-
-## Acknowledgments
-
-Thanks to everyone who takes part in the development of the project.
