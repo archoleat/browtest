@@ -2,7 +2,7 @@
 import { chromium, firefox, webkit } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/common-specs-settings';
+import specSettings from '../../core/spec-settings';
 
 test('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
@@ -15,11 +15,11 @@ test('Take screenshots for Chrome, Firefox, and Safari', async () => {
       const browser = await engine.launch();
       const page = await browser.newPage();
 
-      await page.goto(settings.rootFolder);
+      await page.goto(specSettings.rootFolder);
 
       await page.screenshot({
         path: `${
-          settings.resultsFolder
+          specSettings.resultsFolder
         }/screenshots/${browserName}-${Date.now()}.png`,
         fullPage: true,
       });

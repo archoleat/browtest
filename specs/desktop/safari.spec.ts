@@ -2,14 +2,14 @@
 import { webkit } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/common-specs-settings';
+import specSettings from '../../core/spec-settings';
 
 test('Desktop Safari', async () => {
   const browser = await webkit.launch({
-    devtools: settings.devTools,
+    devtools: specSettings.devTools,
   });
   const page = await browser.newPage();
 
-  await page.goto(settings.rootFolder);
+  await page.goto(specSettings.rootFolder);
   await page.pause();
 });

@@ -2,14 +2,14 @@
 import { chromium } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/common-specs-settings';
+import specSettings from '../../core/spec-settings';
 
 test('Desktop Chrome', async () => {
   const browser = await chromium.launch({
-    devtools: settings.devTools,
+    devtools: specSettings.devTools,
   });
   const page = await browser.newPage();
 
-  await page.goto(settings.rootFolder);
+  await page.goto(specSettings.rootFolder);
   await page.pause();
 });
