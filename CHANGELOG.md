@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.9](https://github.com/Archoleat/browtest/compare/v2.0.8...v2.0.9) (2024-02-07)
+
+
+### Code Refactoring
+
+* small changes ([#82](https://github.com/Archoleat/browtest/issues/82)) ([1eca938](https://github.com/Archoleat/browtest/commit/1eca938bb04532e3493260a51dfd6aaf1fdd0bf0))
+
+
+### Documentation
+
+* **changelog:** remove old links ([#80](https://github.com/Archoleat/browtest/issues/80)) ([677d782](https://github.com/Archoleat/browtest/commit/677d782a808dbe472dc164c058e8929518d08db5))
+* **readme:** change links ([#81](https://github.com/Archoleat/browtest/issues/81)) ([82dc9a6](https://github.com/Archoleat/browtest/commit/82dc9a619bb7b6fe0fed1ff46ddb2bbb735a198a))
+
 ## [2.0.8](https://github.com/Archoleat/browtest/compare/v2.0.7...v2.0.8) (2024-02-02)
 
 
