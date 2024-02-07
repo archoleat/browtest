@@ -2,17 +2,17 @@
 import { webkit, devices } from 'playwright';
 import { test } from '@playwright/test';
 
-import settings from '../../core/common-specs-settings';
+import specSettings from '../../core/spec-settings';
 
 test('Mobile Safari', async () => {
   const browser = await webkit.launch({
-    devtools: settings.devTools,
+    devtools: specSettings.devTools,
   });
   const context = await browser.newContext({
     ...devices['iPhone 14'],
   });
   const page = await context.newPage();
 
-  await page.goto(settings.rootFolder);
+  await page.goto(specSettings.rootFolder);
   await page.pause();
 });

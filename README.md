@@ -9,38 +9,15 @@
 ![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/markdown.yml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/eslint.yml?label=ESLint)
 
+> Make cross-browser checking more convenient!
+
 ## Table of Contents
 
--   [Table of Contents](#table-of-contents)
-
 -   [Getting Started](#getting-started)
-
--   [Features](#features)
-
--   [Scripts](#scripts)
-
 -   [Settings](#settings)
-
--   [Additions](#additions)
-    -   [Husky](#husky)
-
--   [Authors](#authors)
-
--   [Contributors](#contributors)
-
--   [Contributing](#contributing)
-
--   [Versioning](#versioning)
-
+-   [Features](#features)
+-   [Scripts](#scripts)
 -   [License](#license)
-
-## **Make cross-browser checking more convenient!**
-
-This project is built on [**Playwright**](https://github.com/microsoft/playwright)
-and [**Archoleat Repo Template**](https://github.com/Archoleat/archoleat-repo-template).
-
-> \[!TIP]
-> Nice addition for [**Archoleat Builder**](https://github.com/Archoleat/archoleat-builder)!
 
 ## Getting Started
 
@@ -56,6 +33,18 @@ and [**Archoleat Repo Template**](https://github.com/Archoleat/archoleat-repo-te
 1.  After all steps start **Browtest**.
 
     > [**Learn more**](#packagejson-scripts) about the available modes.
+
+## Settings
+
+In **`playwright.config.ts`** the minimum settings are set,
+for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
+and **Safari**.
+
+In the **`core/spec-settings.ts`** you can change the path
+to the **main directory** and enable or disable **devtools** for
+all tests you run.
+
+> By default, **devtools** are turned off.
 
 ## Features
 
@@ -134,48 +123,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
     **Conventional Commits** standards.
-
-## Settings
-
-In **`playwright.config.ts`** the minimum settings are set,
-for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
-and **Safari**.
-
-In the **`core/common-specs-settings.ts`** you can change the path
-to the **main directory** and enable or disable **devtools** for
-all tests you run.
-
-> By default, **devtools** are turned off.
-
-## Additions
-
-### Husky
-
-This repository uses **.husky** as a submodule.
-**.husky** runs **`pre-commit`** hook and **`commit-msg`**.
-
-## Authors
-
-See also the list of [**Authors**](AUTHORS.md).
-
-## Contributors
-
-If you want to improve something, you can write about it
-[**here**](https://github.com/Archoleat/browtest/issues/new/choose).
-
-You can also view a list of [**Contributors**](CONTRIBUTORS.md).
-
-## Contributing
-
-Please read [**Contributing**](CONTRIBUTING.md)
-and [**Code of Conduct**](CODE_OF_CONDUCT.md) for details,
-and the process for submitting **Pull Request** to us.
-
-## Versioning
-
-We use [**SemVer**](https://semver.org) for versioning.
-You can see the available versions
-[**here**](https://github.com/Archoleat/browtest/tags).
 
 ## License
 
