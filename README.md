@@ -32,7 +32,7 @@
 
 1.  After all steps start **Browtest**.
 
-    > [**Learn more**](#packagejson-scripts) about the available modes.
+    > [**Learn more**](#scripts) about the available modes.
 
 ## Settings
 
@@ -49,7 +49,7 @@ all tests you run.
 ## Features
 
 You can run browsers not only one at a time but several at once
-with **multiple** mode, [**learn more**](#packagejson-scripts)
+with **multiple** mode, [**learn more**](#scripts)
 about the available modes.
 
 Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
@@ -92,33 +92,33 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 -   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
     for all files.
 
-    > In the [**`prettier.yml`**](https://github.com/Archoleat/browtest/blob/main/.github/workflows/prettier.yml)
+    > In the [**`prettier.yml`**](.github/workflows/prettier.yml)
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
     checks all files in the project.
 
-    > Also runs with the [**`editorconfig.yml`**](https://github.com/Archoleat/browtest/blob/main/.github/workflows/editorconfig.yml)
+    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
     > workflow.
 
 -   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
     checks all **Markdown** files.
 
-    > Also runs with the [**`markdown.yml`**](https://github.com/Archoleat/browtest/blob/main/.github/workflows/markdown.yml)
+    > Also runs with the [**`markdown.yml`**](.github/workflows/markdown.yml)
     > workflow.
 
 -   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
     for all **TypeScript** files.
 
-    > Runs with the [**`eslint.yml`**](https://github.com/Archoleat/browtest/blob/main/.github/workflows/eslint.yml)
+    > Runs with the [**`eslint.yml`**](.github/workflows/eslint.yml)
     > workflow.
     >
     > Also run with a **`pre-commit`** hook.
 
 -   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
 
-    > Also runs using the [**`mocha.yml`**](https://github.com/Archoleat/browtest/blob/main/.github/workflows/mocha.yml)
+    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
     > workflow.
 
 -   **`commit`**: Runs **Commitlint** to create commits according to
