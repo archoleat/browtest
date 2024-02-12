@@ -11,9 +11,9 @@
     "test:multiple:mobile": "playwright test specs/mobile",
     "test:all": "playwright test",
     "screenshot:all": "playwright test specs/recorders/screenshot.spec.ts",
-    "format": "prettier . --write",
-    "lint:formatting": "prettier . --check",
     "lint:editorconfig": "editorconfig-checker",
+    "lint:formatting": "prettier . --check",
+    "format": "prettier . --write",
     "lint:md": "remark . --quiet",
     "lint:ts": "eslint **/*.ts --fix",
     "commit": "cz"
