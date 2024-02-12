@@ -86,44 +86,6 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Screenshots are saved at
     > `test-results/screenshots/{browserEngineName}-{dateNow}.png.`
 
--   **`format`**: Runs **Prettier** with the **`--write`** flag
-    for all files.
-
--   **`lint:formatting`**: Runs **Prettier** with the **`--check`** flag
-    for all files.
-
-    > In the [**`prettier.yml`**](.github/workflows/prettier.yml)
-    >
-    > Also run with a **`pre-commit`** hook.
-
--   **`lint:editorconfig`**: Runs **Editorconfig Checker** and
-    checks all files in the project.
-
-    > Also runs with the [**`editorconfig.yml`**](.github/workflows/editorconfig.yml)
-    > workflow.
-
--   **`lint:md`**: Runs **Remark** with the **`--quiet`** flag and
-    checks all **Markdown** files.
-
-    > Also runs with the [**`markdown.yml`**](.github/workflows/markdown.yml)
-    > workflow.
-
--   **`lint:ts`**: Runs **ESLint** with the flag **`--fix`**
-    for all **TypeScript** files.
-
-    > Runs with the [**`eslint.yml`**](.github/workflows/eslint.yml)
-    > workflow.
-    >
-    > Also run with a **`pre-commit`** hook.
-
--   **`test`**: Runs **Mocha** and the tests in the **specs/** folder.
-
-    > Also runs using the [**`mocha.yml`**](.github/workflows/mocha.yml)
-    > workflow.
-
--   **`commit`**: Runs **Commitlint** to create commits according to
-    **Conventional Commits** standards.
-
 ## License
 
 This project is licensed under the MIT license - see the
