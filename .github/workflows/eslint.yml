@@ -10,14 +10,14 @@ on:
     branches:
       - main
     paths:
-      - 'core/*.ts'
-      - 'specs/**/*.spec.ts'
+      - core/**/*.ts
+      - specs/**/*.spec.ts
   push:
     branches:
       - main
     paths:
-      - 'core/*.ts'
-      - 'specs/**/*.spec.ts'
+      - core/**/*.ts
+      - specs/**/*.spec.ts
 
 jobs:
   eslint:

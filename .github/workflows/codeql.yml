@@ -5,14 +5,12 @@ on:
     branches:
       - main
     paths:
-      - 'core/**/*.ts'
-      - 'specs/**/*.ts'
+      - core/**/*.ts
   push:
     branches:
       - main
     paths:
-      - 'core/**/*.ts'
-      - 'specs/**/*.ts'
+      - core/**/*.ts
 
 permissions:
   actions: read
