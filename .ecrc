@@ -1,7 +1,6 @@
 {
   "exclude": [
     "CHANGELOG.md",
-    "config.yml",
     "CONTRIBUTING.md",
     "package.json",
     "pnpm-lock.yaml",
