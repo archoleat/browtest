@@ -4,6 +4,7 @@
     "config.yml",
     "CONTRIBUTING.md",
     "package.json",
+    "pnpm-lock.yaml",
     "README.md"
   ]
 }
