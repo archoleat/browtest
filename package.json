@@ -16,7 +16,7 @@
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet",
     "lint:ts": "eslint **/*.ts --fix",
-    "format": "prettier . --write",
+    "prettify": "prettier . --write",
     "commit": "cz"
   },
   "dependencies": {
