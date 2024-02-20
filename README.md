@@ -2,12 +2,12 @@
 
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yml?label=Commitlint)
-![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/codeql.yml?label=CodeQL)
-![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/editorconfig.yml?label=Editorconfig)
-![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/prettier.yml?label=Prettier)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/markdown.yml?label=Markdown)
-![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/eslint.yml?label=ESLint)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yaml?label=Commitlint)
+![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/codeql.yaml?label=CodeQL)
+![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/editorconfig.yaml?label=Editorconfig)
+![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/prettier.yaml?label=Prettier)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/markdown.yaml?label=Markdown)
+![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/eslint.yaml?label=ESLint)
 
 > Make cross-browser checking more convenient!
 
