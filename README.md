@@ -1,13 +1,13 @@
 # Browtest
 
-![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
-![TypeScript Only](https://img.shields.io/badge/TypeScript-only-gray?labelColor=06f)
-![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/core/commitlint.yaml?label=Commitlint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/codeql.yaml?label=CodeQL)
+![Commitlint](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/prettier.yaml?label=Prettier)
-![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/markdown.yaml?label=Markdown)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/eslint.yaml?label=ESLint)
+![Markdown](https://img.shields.io/github/actions/workflow/status/Archoleat/browtest/markdown.yaml?label=Markdown)
+![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
+![TS Only](https://img.shields.io/badge/TS-only-gray?labelColor=06f)
 
 > Make cross-browser checking more convenient!
 
@@ -40,7 +40,7 @@ In `playwright.config.ts` the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 and **Safari**.
 
-In the `core/spec-settings.ts` you can change the path
+In the `src/spec-settings.ts` you can change the path
 to the **main directory** and enable or disable **devtools** for
 all tests you run.
 
