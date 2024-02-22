@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.0.10](https://github.com/Archoleat/browtest/compare/v2.0.9...v2.0.10) (2024-02-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* migrate to `pnpm` (#100)
+
+### Bug Fixes
+
+* `eslint.config.js` ([#109](https://github.com/Archoleat/browtest/issues/109)) ([4f5e3a2](https://github.com/Archoleat/browtest/commit/4f5e3a22e781ca9b713cbb71bf89c12c5c41235c))
+
+
+### Code Refactoring
+
+* `pnpm` scripts ([#110](https://github.com/Archoleat/browtest/issues/110)) ([0df900e](https://github.com/Archoleat/browtest/commit/0df900e67df869ea39d55a824ddc6136fcae9408))
+* **links:** add links to `.yaml` ([#106](https://github.com/Archoleat/browtest/issues/106)) ([1238696](https://github.com/Archoleat/browtest/commit/123869656163a065afd27d6e29bc6f196e616ef9))
+* architecture ([#111](https://github.com/Archoleat/browtest/issues/111)) ([dfde9a7](https://github.com/Archoleat/browtest/commit/dfde9a72ce31f67d6926f9d96e86859ce80b3e31))
+* migrate to `pnpm` ([#100](https://github.com/Archoleat/browtest/issues/100)) ([5fcdcf0](https://github.com/Archoleat/browtest/commit/5fcdcf047f2f2d93d44185faa0bea3a07705377b))
+* small changes ([#102](https://github.com/Archoleat/browtest/issues/102)) ([c0734fb](https://github.com/Archoleat/browtest/commit/c0734fbc676c58d9be09cf3430ee4705d87e2fb5))
+* small changes ([#108](https://github.com/Archoleat/browtest/issues/108)) ([cb98663](https://github.com/Archoleat/browtest/commit/cb98663a5682bff963c97900e0ba12e7cd5359f5))
+* small changes ([#94](https://github.com/Archoleat/browtest/issues/94)) ([ba9e489](https://github.com/Archoleat/browtest/commit/ba9e489fec6558f9e2de3b1261d84001dca69193))
+
+
+### Documentation
+
+* add format ([#107](https://github.com/Archoleat/browtest/issues/107)) ([f7b7e62](https://github.com/Archoleat/browtest/commit/f7b7e624d500a697fe322d5d8d2b1d0f9d70c191))
+* **contributors:** remove ([#83](https://github.com/Archoleat/browtest/issues/83)) ([c5a9ff9](https://github.com/Archoleat/browtest/commit/c5a9ff924be6d3ecaf376a9ecacfcda0d10007de))
+* **readme:** rewrite text ([#93](https://github.com/Archoleat/browtest/issues/93)) ([896b9c5](https://github.com/Archoleat/browtest/commit/896b9c51e76d94fc385330de36749afe61e8bfc5))
+* small changes ([#84](https://github.com/Archoleat/browtest/issues/84)) ([36818a6](https://github.com/Archoleat/browtest/commit/36818a626e68fd081158f3ca21234b2502994cbd))
+
 ## [2.0.9](https://github.com/Archoleat/browtest/compare/v2.0.8...v2.0.9) (2024-02-07)
 
 
