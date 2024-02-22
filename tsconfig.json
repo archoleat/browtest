@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "disableReferencedProjectLoad": true,
     "exactOptionalPropertyTypes": true,
-    "module": "CommonJS",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noEmit": true,
     "noErrorTruncation": true,
-    "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -15,6 +16,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "ES6"
+    "target": "ES6",
+    "types": ["playwright"]
   }
 }
