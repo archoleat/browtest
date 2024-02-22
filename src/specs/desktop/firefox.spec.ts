@@ -2,7 +2,7 @@
 import { firefox } from 'playwright';
 import { test } from '@playwright/test';
 
-import specSettings from '../../core/spec-settings';
+import specSettings from '../../spec-settings.ts';
 
 test('Desktop Firefox', async () => {
   const browser = await firefox.launch({

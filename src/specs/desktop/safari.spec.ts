@@ -2,7 +2,7 @@
 import { webkit } from 'playwright';
 import { test } from '@playwright/test';
 
-import specSettings from '../../core/spec-settings';
+import specSettings from '../../spec-settings.ts';
 
 test('Desktop Safari', async () => {
   const browser = await webkit.launch({
