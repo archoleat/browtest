@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "init": "pnpm i && husky && playwright install && git submodule init && git submodule update",
+    "init": "pnpm i && husky && playwright install && git submodule update",
     "screenshot:all": "playwright test specs/recorders/screenshot.spec.ts",
     "test:safari:desktop": "playwright test specs/desktop/safari.spec.ts",
     "test:safari:mobile": "playwright test specs/mobile/safari.spec.ts",
@@ -15,7 +15,7 @@
     "lint:editorconfig": "editorconfig-checker",
     "lint:formatting": "prettier . --check",
     "lint:md": "remark . --quiet",
-    "lint:ts": "eslint **/*.ts --fix",
+    "lint:ts": "eslint src/**/*.ts --fix",
     "prettify": "prettier . --write",
     "commit": "cz"
   },
@@ -35,8 +35,10 @@
     "editorconfig-checker": "^5.1.4",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-unicorn": "^51.0.1",
+    "globals": "^14.0.0",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
     "playwright": "^1.41.2",
