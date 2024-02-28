@@ -17,6 +17,7 @@
 -   [Settings](#settings)
 -   [Features](#features)
 -   [Scripts](#scripts)
+-   [Contributing](#contributing)
 -   [License](#license)
 
 ## Getting Started
@@ -86,7 +87,11 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
     > Screenshots are saved at
     > `test-results/screenshots/{browserEngineName}-{dateNow}.png.`
 
+## Contributing
+
+Please read [**CONTRIBUTING**](https://github.com/archoleat/.github/blob/main/CONTRIBUTING.md)
+to start contributing.
+
 ## License
 
-This project is licensed under the MIT license - see the
-[**LICENSE**](LICENSE) for details.
+This project is licensed under the [**MIT license**](LICENSE).
