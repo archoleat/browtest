@@ -9,8 +9,6 @@
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 ![TS Only](https://img.shields.io/badge/TS-only-gray?labelColor=06f)
 
-> Make cross-browser checking more convenient!
-
 ## Table of Contents
 
 -   [Getting Started](#getting-started)
@@ -19,6 +17,14 @@
 -   [Scripts](#scripts)
 -   [Contributing](#contributing)
 -   [License](#license)
+
+Installation
+
+Usage
+
+PNPM
+
+Peer Dependencies
 
 ## Getting Started
 
