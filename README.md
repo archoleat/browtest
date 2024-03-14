@@ -15,6 +15,7 @@
 -   [Settings](#settings)
 -   [Features](#features)
 -   [Scripts](#scripts)
+-   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
 -   [License](#license)
 
@@ -92,6 +93,15 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
     > Screenshots are saved at
     > `test-results/screenshots/{browserEngineName}-{dateNow}.png.`
+
+## Troubleshooting
+
+If you are using **npm** you may get an error related to these plugins:
+
+-   `typescript-eslint/eslint-plugin`.
+-   `typescript-eslint/parser`.
+
+To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`.
 
 ## Contributing
 
