@@ -7,7 +7,6 @@
 ![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/eslint.yaml?label=ESLint)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/markdown.yaml?label=Markdown)
 ![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
-![TS Only](https://img.shields.io/badge/TS-only-gray?labelColor=06f)
 
 ## Table of Contents
 
@@ -96,12 +95,21 @@ Testing is available in (**WebKit**) Safari, (**Gecko**) Firefox and
 
 ## Troubleshooting
 
-If you are using **npm** you may get an error related to these plugins:
+If you are using **npm**, you may get a `peerDependency` error
+that is related to these plugins:
 
 -   `typescript-eslint/eslint-plugin`.
 -   `typescript-eslint/parser`.
 
-To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`.
+To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`:
+
+```shell
+typescript-eslint/eslint-plugin@6.0.0
+```
+
+```shell
+typescript-eslint/parser@6.0.0
+```
 
 ## Contributing
 

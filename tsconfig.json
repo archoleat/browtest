@@ -9,6 +9,7 @@
     "moduleResolution": "NodeNext",
     "noEmit": true,
     "noErrorTruncation": true,
+    "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -16,7 +17,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "ES6",
+    "target": "ESNext",
     "types": ["playwright"]
   }
 }
