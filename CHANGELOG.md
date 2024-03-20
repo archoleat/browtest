@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.0.11](https://github.com/archoleat/browtest/compare/v2.0.10...v2.0.11) (2024-03-20)
+
+
+### Bug Fixes
+
+* **config:** add correct path to `specs` ([#121](https://github.com/archoleat/browtest/issues/121)) ([6cc4360](https://github.com/archoleat/browtest/commit/6cc4360d5020ebf1a03f3c470d3fe87a08eff53c))
+
+
+### Code Refactoring
+
+* **eslint:** add `resolve()` ([#114](https://github.com/archoleat/browtest/issues/114)) ([b6dbc0d](https://github.com/archoleat/browtest/commit/b6dbc0d6f5306115536cfc3166ee4e5660ac73c1))
+* **eslint:** add `resolve()` ([#116](https://github.com/archoleat/browtest/issues/116)) ([265988b](https://github.com/archoleat/browtest/commit/265988bb4a9d3bb5ea32d35e6d403bf02c6f8af3))
+* **release.config:** add `spec` instead `test` ([#117](https://github.com/archoleat/browtest/issues/117)) ([670e030](https://github.com/archoleat/browtest/commit/670e030924ec23fafb3841a922ed6304595c1672))
+* small changes ([#137](https://github.com/archoleat/browtest/issues/137)) ([f8bddaa](https://github.com/archoleat/browtest/commit/f8bddaa659ea227b53264ed848f321c5e7210e4b))
+
+
+### Documentation
+
+* **readme:** add link to `contributing` ([#120](https://github.com/archoleat/browtest/issues/120)) ([18e2a9e](https://github.com/archoleat/browtest/commit/18e2a9e97a11d929760079a72c8d623701b225bb))
+* **contributing:** rewrite ([#112](https://github.com/archoleat/browtest/issues/112)) ([08136a8](https://github.com/archoleat/browtest/commit/08136a85e417848af77beeb9eb072f78abf63497))
+
 ## [2.0.10](https://github.com/archoleat/browtest/compare/v2.0.9...v2.0.10) (2024-02-22)
 
 
