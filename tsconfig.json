@@ -3,12 +3,14 @@
     "allowImportingTsExtensions": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
+    "composite": true,
     "disableReferencedProjectLoad": true,
     "exactOptionalPropertyTypes": true,
+    "lib": ["ESNext"],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noEmit": true,
-    "noErrorTruncation": true,
+    "noImplicitAny": true,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -16,7 +18,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "strict": true,
-    "target": "ES6",
     "types": ["playwright"]
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
