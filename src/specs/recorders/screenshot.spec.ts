@@ -1,4 +1,3 @@
-// @ts-check
 import { chromium, firefox, webkit } from 'playwright';
 import { test } from '@playwright/test';
 
@@ -6,7 +5,7 @@ import specSettings from '../../spec-settings.ts';
 
 test('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
-  const screenshotPromises: Array<object> = [];
+  const screenshots: Array<object> = [];
 
   for (const engine of browserEngines) {
     const browserName = engine.name();
@@ -27,8 +26,8 @@ test('Take screenshots for Chrome, Firefox, and Safari', async () => {
       await browser.close();
     };
 
-    screenshotPromises.push(takeScreenshot());
+    screenshots.push(takeScreenshot());
   }
 
-  await Promise.all(screenshotPromises);
+  await Promise.all(screenshots);
 });

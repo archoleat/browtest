@@ -1,4 +1,3 @@
-// @ts-check
 import { chromium } from 'playwright';
 import { test } from '@playwright/test';
 

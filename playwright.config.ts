@@ -7,7 +7,7 @@ export default defineConfig({
   workers: 3,
   expect: { timeout: 30_000 },
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://github.com',
     bypassCSP: true,
     headless: false,
     screenshot: 'only-on-failure',
