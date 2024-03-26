@@ -13,7 +13,6 @@
 -   [Installation](#installation)
 -   [Settings](#settings)
 -   [Scripts](#scripts)
--   [Troubleshooting](#troubleshooting)
 -   [Contributing](#contributing)
 -   [License](#license)
 
@@ -69,27 +68,6 @@ all tests you run.
 
     > Screenshots are saved at
     > `test-results/screenshots/{browserName}-{dateNow}.png.`
-
-## Troubleshooting
-
-> \[!WARNING]
-> Developers Only.
-
-If you are using **npm**, you may get a `peerDependency` error
-that is related to these plugins:
-
--   `typescript-eslint/eslint-plugin`.
--   `typescript-eslint/parser`.
-
-To fix this you can switch to **pnpm**(recommended) or install version `6.0.0`:
-
-```shell
-typescript-eslint/eslint-plugin@6.0.0
-```
-
-```shell
-typescript-eslint/parser@6.0.0
-```
 
 ## Contributing
 
