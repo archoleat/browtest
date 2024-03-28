@@ -1,7 +1,7 @@
 import { chromium, devices } from 'playwright';
 import { test } from '@playwright/test';
 
-import specSettings from '../../spec-settings.ts';
+import { specSettings } from '../../spec-settings.ts';
 
 test('Mobile Chrome', async () => {
   const browser = await chromium.launch({
