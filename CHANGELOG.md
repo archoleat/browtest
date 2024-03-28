@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.12](https://github.com/archoleat/browtest/compare/v2.0.11...v2.0.12) (2024-03-28)
+
+
+### Code Refactoring
+
+* change `export` type ([#145](https://github.com/archoleat/browtest/issues/145)) ([8ee99df](https://github.com/archoleat/browtest/commit/8ee99df8e1a9392ffec02944b2bf1be43459c31e))
+
+
+### Documentation
+
+* **readme:** update ([#142](https://github.com/archoleat/browtest/issues/142)) ([bb1472a](https://github.com/archoleat/browtest/commit/bb1472ae61193818fc39a9ba55cffb9030c6b89b))
+
 ## [2.0.11](https://github.com/archoleat/browtest/compare/v2.0.10...v2.0.11) (2024-03-20)
 
 
