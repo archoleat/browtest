@@ -2,15 +2,13 @@ name: Commit Lint
 
 on:
   pull_request:
-    branches-ignore:
-      - dependabot/*
   push:
-    branches-ignore:
-      - dependabot/*
 
 jobs:
   commit-lint:
     name: Commit Lint
+
+    if: ${{ github.actor != 'dependabot[bot]' }}
 
     runs-on: ubuntu-latest
     timeout-minutes: 10
@@ -34,4 +32,6 @@ jobs:
         run: pnpm i
 
       - name: Lint
-        uses: ahmadnassri/action-commit-lint@v2
+        env:
+          COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+        run: echo $COMMIT_MESSAGE | pnpm commitlint
