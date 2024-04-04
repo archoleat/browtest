@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.13](https://github.com/archoleat/browtest/compare/v2.0.12...v2.0.13) (2024-04-04)
+
+
+### Code Refactoring
+
+* **eslint:** add `extend` ([#149](https://github.com/archoleat/browtest/issues/149)) ([98d7326](https://github.com/archoleat/browtest/commit/98d732639ed63d1d7fa93c09450ad67695870231))
+* **husky:** remove submodule ([#146](https://github.com/archoleat/browtest/issues/146)) ([f66d84d](https://github.com/archoleat/browtest/commit/f66d84da875dd6daabc84732f3e7d37556a1a2f1))
+
 ## [2.0.12](https://github.com/archoleat/browtest/compare/v2.0.11...v2.0.12) (2024-03-28)
 
 
