@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "init": "pnpm i && husky && playwright install && git submodule update",
+    "init": "pnpm i && husky && playwright install",
     "screenshot:desktop:all": "playwright test specs/recorders/screenshot.spec.ts",
     "test:safari:desktop": "playwright test specs/desktop/safari.spec.ts",
     "test:safari:mobile": "playwright test specs/mobile/safari.spec.ts",
@@ -24,13 +24,14 @@
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.2",
+    "@archoleat/eslint-flat-compatibility": "^1.1.0",
     "@archoleat/semantic-release-define-config": "^1.1.1",
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "@typescript-eslint/eslint-plugin": "^7.4.0",
-    "@typescript-eslint/parser": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
     "conventional-changelog-conventionalcommits": "^7.0.2",
     "cz-conventional-changelog": "^3.3.0",
     "editorconfig-checker": "^5.1.5",
