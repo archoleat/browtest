@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.14](https://github.com/archoleat/browtest/compare/v2.0.13...v2.0.14) (2024-04-05)
+
+
+### Code Refactoring
+
+* **eslint:** add `ecmaVersion` and `sourceType` ([#151](https://github.com/archoleat/browtest/issues/151)) ([289eef5](https://github.com/archoleat/browtest/commit/289eef54075354873840ed85e2e005fed6cc8b3e))
+
 ## [2.0.13](https://github.com/archoleat/browtest/compare/v2.0.12...v2.0.13) (2024-04-04)
 
 
