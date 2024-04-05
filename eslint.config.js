@@ -1,6 +1,7 @@
 import { extend } from '@archoleat/eslint-flat-compatibility';
 import { defineFlatConfig } from 'eslint-define-config';
 
+import eslintConfigPrettier from 'eslint-config-prettier';
 import globals from 'globals';
 import typescriptParser from '@typescript-eslint/parser';
 import unicorn from 'eslint-plugin-unicorn';
@@ -14,6 +15,7 @@ export default defineFlatConfig([
   unicorn.configs['flat/recommended'],
   {
     languageOptions: {
+      ecmaVersion: 'latest',
       globals: {
         ...globals.node,
       },
@@ -21,6 +23,7 @@ export default defineFlatConfig([
       parserOptions: {
         project: 'tsconfig.json',
       },
+      sourceType: 'module',
     },
     settings: {
       'import/resolver': {
@@ -40,4 +43,5 @@ export default defineFlatConfig([
       'unicorn/string-content': 'error',
     },
   },
+  eslintConfigPrettier,
 ]);
