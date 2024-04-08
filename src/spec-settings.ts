@@ -1,6 +1,6 @@
 const specSettings = {
   devTools: false,
-  resultsFolder: 'test-results',
+  resultsFolder: 'spec-results',
   rootFolder: '/',
 };
 
