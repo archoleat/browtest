@@ -18,15 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    steps:
-      - name: Dependabot Metadata
-        id: metadata
-        uses: dependabot/fetch-metadata@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      PR_URL: ${{ github.event.pull_request.html_url }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+    steps:
       - name: Merge
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PULL_REQUEST_URL: ${{ github.event.pull_request.html_url }}
-        run: gh pr merge --auto --merge '$PULL_REQUEST_URL'
+        run: gh pr merge $PR_URL --auto --squash
