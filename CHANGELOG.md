@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.15](https://github.com/archoleat/browtest/compare/v2.0.14...v2.0.15) (2024-04-08)
+
+
+### Code Refactoring
+
+* **eslint:** add new rules ([#160](https://github.com/archoleat/browtest/issues/160)) ([a3a941f](https://github.com/archoleat/browtest/commit/a3a941f594a3b5af51d1a941a8b87f7695f2b605))
+
 ## [2.0.14](https://github.com/archoleat/browtest/compare/v2.0.13...v2.0.14) (2024-04-05)
 
 
