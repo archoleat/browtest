@@ -8,6 +8,7 @@ import unicorn from 'eslint-plugin-unicorn';
 
 export default defineFlatConfig([
   ...extend(
+    'airbnb-base',
     'airbnb-typescript/base',
     'plugin:import/recommended',
     'plugin:import/typescript',
@@ -33,12 +34,15 @@ export default defineFlatConfig([
       },
     },
     rules: {
+      'no-restricted-syntax': 'off',
       'import/exports-last': 'error',
       'import/extensions': ['error', { ts: 'always' }],
       'import/group-exports': 'error',
       'import/no-commonjs': 'error',
+      'import/no-default-export': 'error',
       'import/no-namespace': 'error',
       'import/no-unassigned-import': 'error',
+      'import/prefer-default-export': 'off',
       'unicorn/no-unused-properties': 'error',
       'unicorn/string-content': 'error',
     },
