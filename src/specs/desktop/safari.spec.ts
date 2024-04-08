@@ -1,9 +1,9 @@
 import { webkit } from 'playwright';
-import { test } from '@playwright/test';
+import { test as spec } from '@playwright/test';
 
 import { specSettings } from '../../spec-settings.ts';
 
-test('Desktop Safari', async () => {
+spec('Desktop Safari', async () => {
   const browser = await webkit.launch({
     devtools: specSettings.devTools,
   });

@@ -1,4 +1,4 @@
 # directories
 node_modules
 playwright-report
-test-results
+spec-results

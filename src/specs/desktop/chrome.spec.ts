@@ -1,9 +1,9 @@
 import { chromium } from 'playwright';
-import { test } from '@playwright/test';
+import { test as spec } from '@playwright/test';
 
 import { specSettings } from '../../spec-settings.ts';
 
-test('Desktop Chrome', async () => {
+spec('Desktop Chrome', async () => {
   const browser = await chromium.launch({
     devtools: specSettings.devTools,
   });
