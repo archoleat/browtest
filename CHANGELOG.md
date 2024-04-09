@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.16](https://github.com/archoleat/browtest/compare/v2.0.15...v2.0.16) (2024-04-09)
+
+
+### Code Refactoring
+
+* **eslint:** rename unicorn import ([#161](https://github.com/archoleat/browtest/issues/161)) ([fee5c60](https://github.com/archoleat/browtest/commit/fee5c601ff49e322d897d66af669050dfa6ad00d))
+
 ## [2.0.15](https://github.com/archoleat/browtest/compare/v2.0.14...v2.0.15) (2024-04-08)
 
 
