@@ -20,5 +20,5 @@
     "strict": true,
     "types": ["playwright"]
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src"]
 }

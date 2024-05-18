@@ -10,26 +10,26 @@
 
 ## Table of Contents
 
--   [Installation](#installation)
--   [Settings](#settings)
--   [Scripts](#scripts)
--   [Contributing](#contributing)
--   [License](#license)
+- [Installation](#installation)
+- [Settings](#settings)
+- [Scripts](#scripts)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 
-1.  Clone the repository.
+1. Clone the repository.
 
-1.  Run `pnpm init` for install dependencies.
+1. Run `pnpm init` for install dependencies.
 
-1.  Change the **url** address in the `playwright.config.ts` file
-    if necessary.
+1. Change the **url** address in the `playwright.config.ts` file
+   if necessary.
 
-1.  Start the local server with `vite`, `wepback` or `next`
+1. Start the local server with `vite`, `wepback` or `next`
 
-1.  After all steps start **Browtest**.
+1. After all steps start **Browtest**.
 
-    > [**Learn more**](#scripts) about the available modes.
+   > [**Learn more**](#scripts) about the available modes.
 
 ## Settings
 
@@ -45,29 +45,29 @@ all tests you run.
 
 ## Scripts
 
--   `init`: Installs dependencies, **Husky**, **Playwright**
-    and update submodules.
+- `init`: Installs dependencies, **Husky**, **Playwright**
+  and update submodules.
 
--   `spec:safari:desktop`: Runs **desktop Safari**.
+- `spec:safari:desktop`: Runs **desktop Safari**.
 
--   `spec:safari:mobile`: Runs **mobile Safari**.
+- `spec:safari:mobile`: Runs **mobile Safari**.
 
--   `spec:firefox:desktop`: Runs **desktop Firefox**.
+- `spec:firefox:desktop`: Runs **desktop Firefox**.
 
--   `spec:chrome:desktop`: Runs **desktop Chrome**.
+- `spec:chrome:desktop`: Runs **desktop Chrome**.
 
--   `spec:chrome:mobile`: Runs **mobile Chrome**.
+- `spec:chrome:mobile`: Runs **mobile Chrome**.
 
--   `spec:multiple:desktop`: Runs all desktop browsers in parallel.
+- `spec:multiple:desktop`: Runs all desktop browsers in parallel.
 
--   `spec:multiple:mobile`: Runs all mobile browsers in parallel.
+- `spec:multiple:mobile`: Runs all mobile browsers in parallel.
 
--   `spec:all`: Runs all tests from **desktop/** and **mobile/** folders.
+- `spec:all`: Runs all tests from **desktop/** and **mobile/** folders.
 
--   `screenshot:desktop:all`: Creates screenshots for all desktop browsers.
+- `screenshot:desktop:all`: Creates screenshots for all desktop browsers.
 
-    > Screenshots are saved at
-    > `spec-results/screenshots/{browserName}-{dateNow}.png.`
+  > Screenshots are saved at
+  > `spec-results/screenshots/{browserName}-{dateNow}.png.`
 
 ## Contributing
 
