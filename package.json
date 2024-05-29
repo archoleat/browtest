@@ -61,7 +61,7 @@
     "commit": "cz"
   },
   "dependencies": {
-    "@playwright/test": "^1.44.0"
+    "@playwright/test": "^1.44.1"
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.7",
