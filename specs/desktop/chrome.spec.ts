@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '../../spec-settings.ts';
+import { specSettings } from '#settings';
 
 spec('Desktop Chrome', async () => {
   const browser = await chromium.launch({
