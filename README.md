@@ -1,12 +1,12 @@
 # Browtest
 
+![ESM](https://img.shields.io/badge/ESM-fe0)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/codeql.yaml?label=CodeQL)
 ![Commitlint](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/commitlint.yaml?label=Commitlint)
 ![Editorconfig](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/editorconfig.yaml?label=Editorconfig)
 ![Prettier](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/prettier.yaml?label=Prettier)
 ![ESLint](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/eslint.yaml?label=ESLint)
 ![Markdown](https://img.shields.io/github/actions/workflow/status/archoleat/browtest/markdown.yaml?label=Markdown)
-![ESM Only](https://img.shields.io/badge/ESM-only-gray?labelColor=fe0)
 
 ## Table of Contents
 
