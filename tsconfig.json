@@ -1,24 +1,18 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "composite": true,
     "disableReferencedProjectLoad": true,
     "exactOptionalPropertyTypes": true,
-    "lib": ["ESNext"],
-    "module": "NodeNext",
-    "moduleResolution": "NodeNext",
-    "noEmit": true,
     "noImplicitAny": true,
-    "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "strict": true,
-    "types": ["playwright"]
+    "strict": true
   },
+  "exclude": ["specs"],
+  "extends": ["./tsconfig.node.json"],
   "include": ["src"]
 }

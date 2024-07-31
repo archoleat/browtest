@@ -1,14 +1,14 @@
-import { chromium, devices } from 'playwright';
+import { webkit, devices } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '../../spec-settings.ts';
+import { specSettings } from '#shared';
 
-spec('Mobile Chrome', async () => {
-  const browser = await chromium.launch({
+spec('Mobile Safari', async () => {
+  const browser = await webkit.launch({
     devtools: specSettings.devTools,
   });
   const context = await browser.newContext({
-    ...devices['Pixel 7'],
+    ...devices['iPhone 14'],
   });
   const page = await context.newPage();
 

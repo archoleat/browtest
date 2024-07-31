@@ -1,10 +1,10 @@
-import { webkit } from 'playwright';
+import { chromium } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '../../spec-settings.ts';
+import { specSettings } from '#shared';
 
-spec('Desktop Safari', async () => {
-  const browser = await webkit.launch({
+spec('Desktop Chrome', async () => {
+  const browser = await chromium.launch({
     devtools: specSettings.devTools,
   });
   const page = await browser.newPage();

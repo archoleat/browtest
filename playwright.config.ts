@@ -3,11 +3,11 @@ import { defineConfig } from '@playwright/test';
 export default defineConfig({
   fullyParallel: true,
   reporter: 'html',
-  testDir: 'src/specs',
+  testDir: 'specs',
   workers: 3,
   expect: { timeout: 30_000 },
   use: {
-    baseURL: 'https://github.com',
+    baseURL: 'http://localhost:3000',
     bypassCSP: true,
     headless: false,
     screenshot: 'only-on-failure',
