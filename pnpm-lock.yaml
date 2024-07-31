@@ -19,11 +19,11 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6
       '@archoleat/semantic-release-define-config':
-        specifier: ^1.1.7
-        version: 1.1.7(semantic-release@24.0.0(typescript@5.5.4))
+        specifier: ^1.1.8
+        version: 1.1.8(semantic-release@24.0.0(typescript@5.5.4))
       '@commitlint/cli':
         specifier: ^19.3.0
-        version: 19.3.0(@types/node@22.0.0)(typescript@5.5.4)
+        version: 19.3.0(@types/node@22.0.2)(typescript@5.5.4)
       '@commitlint/config-conventional':
         specifier: ^19.2.2
         version: 19.2.2
@@ -47,7 +47,7 @@ importers:
         version: 8.0.0
       cz-conventional-changelog:
         specifier: ^3.3.0
-        version: 3.3.0(@types/node@22.0.0)(typescript@5.5.4)
+        version: 3.3.0(@types/node@22.0.2)(typescript@5.5.4)
       editorconfig-checker:
         specifier: ^5.1.8
         version: 5.1.8
@@ -122,8 +122,8 @@ packages:
     resolution: {integrity: sha512-gu8PQv6hWh2DEm2FONtAPDvv1odZXCADshCyvouYzFNscEgMLW0zwbfv6d6pAlsk7uY9+V05R/tz0qv0Sy4mzg==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
 
-  '@archoleat/semantic-release-define-config@1.1.7':
-    resolution: {integrity: sha512-THko3h8y1N49GibhbJiiJ4ZaGvgsUBf/ZrOSCElM/qtc/4cjOi8KqCYI7xVrM4e19WPwYEFXxUcSSJFWlhhANQ==}
+  '@archoleat/semantic-release-define-config@1.1.8':
+    resolution: {integrity: sha512-/Ht+Ds517toYhBMLSgwVX6LbD9OHMin2b8DUFc3UTu3mSu5yj8JQY4Vw8Uy4/msDiQQhURVfF5a9Icre7YHjdA==}
     engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       semantic-release: ^23.0.0 || ^24.0.0
@@ -458,8 +458,8 @@ packages:
   '@types/node@20.14.13':
     resolution: {integrity: sha512-+bHoGiZb8UiQ0+WEtmph2IWQCjIqg8MDZMAV+ppRRhUZnquF5mQkP/9vpSwJClEiSM/C7fZZExPzfU0vJTyp8w==}
 
-  '@types/node@22.0.0':
-    resolution: {integrity: sha512-VT7KSYudcPOzP5Q0wfbowyNLaVR8QWUdw+088uFWwfvpY6uCWaXpqV6ieLAu9WBcnTa7H4Z5RLK8I5t2FuOcqw==}
+  '@types/node@22.0.2':
+    resolution: {integrity: sha512-yPL6DyFwY5PiMVEwymNeqUTKsDczQBJ/5T7W/46RwLU/VH+AA8aT5TZkvBviLKLbbm0hlfftEkGrNzfRk/fofQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -719,8 +719,8 @@ packages:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
 
-  caniuse-lite@1.0.30001644:
-    resolution: {integrity: sha512-YGvlOZB4QhZuiis+ETS0VXR+MExbFf4fZYYeMTEE0aTQd/RdIjkTyZjLrbYVKnHzppDvnOhritRVv+i7Go6mHw==}
+  caniuse-lite@1.0.30001645:
+    resolution: {integrity: sha512-GFtY2+qt91kzyMk6j48dJcwJVq5uTkk71XxE3RtScx7XWRLsO7bU44LOFkOZYR8w9YMS0UhPSYpN/6rAMImmLw==}
 
   ccount@2.0.1:
     resolution: {integrity: sha512-eyrF0jiFpY+3drT6383f1qhkbGsLSifNAjA61IUjZjmLCWjItY6LB9ft9YhoDgwfmclB2zhu51Lc7+95b8NRAg==}
@@ -3505,7 +3505,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@archoleat/semantic-release-define-config@1.1.7(semantic-release@24.0.0(typescript@5.5.4))':
+  '@archoleat/semantic-release-define-config@1.1.8(semantic-release@24.0.0(typescript@5.5.4))':
     dependencies:
       semantic-release: 24.0.0(typescript@5.5.4)
 
@@ -3526,11 +3526,11 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@commitlint/cli@19.3.0(@types/node@22.0.0)(typescript@5.5.4)':
+  '@commitlint/cli@19.3.0(@types/node@22.0.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/format': 19.3.0
       '@commitlint/lint': 19.2.2
-      '@commitlint/load': 19.2.0(@types/node@22.0.0)(typescript@5.5.4)
+      '@commitlint/load': 19.2.0(@types/node@22.0.2)(typescript@5.5.4)
       '@commitlint/read': 19.2.1
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -3577,7 +3577,7 @@ snapshots:
       '@commitlint/rules': 19.0.3
       '@commitlint/types': 19.0.3
 
-  '@commitlint/load@19.2.0(@types/node@22.0.0)(typescript@5.5.4)':
+  '@commitlint/load@19.2.0(@types/node@22.0.2)(typescript@5.5.4)':
     dependencies:
       '@commitlint/config-validator': 19.0.3
       '@commitlint/execute-rule': 19.0.0
@@ -3585,7 +3585,7 @@ snapshots:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.5.4)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.0.0)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@22.0.2)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -3945,7 +3945,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
-      '@types/node': 22.0.0
+      '@types/node': 22.0.2
 
   '@types/debug@4.1.12':
     dependencies:
@@ -3986,7 +3986,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@22.0.0':
+  '@types/node@22.0.2':
     dependencies:
       undici-types: 6.11.1
 
@@ -4254,7 +4254,7 @@ snapshots:
 
   browserslist@4.23.2:
     dependencies:
-      caniuse-lite: 1.0.30001644
+      caniuse-lite: 1.0.30001645
       electron-to-chromium: 1.5.4
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.2)
@@ -4280,7 +4280,7 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  caniuse-lite@1.0.30001644: {}
+  caniuse-lite@1.0.30001645: {}
 
   ccount@2.0.1: {}
 
@@ -4406,10 +4406,10 @@ snapshots:
 
   commander@8.3.0: {}
 
-  commitizen@4.3.0(@types/node@22.0.0)(typescript@5.5.4):
+  commitizen@4.3.0(@types/node@22.0.2)(typescript@5.5.4):
     dependencies:
       cachedir: 2.3.0
-      cz-conventional-changelog: 3.3.0(@types/node@22.0.0)(typescript@5.5.4)
+      cz-conventional-changelog: 3.3.0(@types/node@22.0.2)(typescript@5.5.4)
       dedent: 0.7.0
       detect-indent: 6.1.0
       find-node-modules: 2.1.3
@@ -4494,9 +4494,9 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@5.0.0(@types/node@22.0.0)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
+  cosmiconfig-typescript-loader@5.0.0(@types/node@22.0.2)(cosmiconfig@9.0.0(typescript@5.5.4))(typescript@5.5.4):
     dependencies:
-      '@types/node': 22.0.0
+      '@types/node': 22.0.2
       cosmiconfig: 9.0.0(typescript@5.5.4)
       jiti: 1.21.6
       typescript: 5.5.4
@@ -4520,16 +4520,16 @@ snapshots:
     dependencies:
       type-fest: 1.4.0
 
-  cz-conventional-changelog@3.3.0(@types/node@22.0.0)(typescript@5.5.4):
+  cz-conventional-changelog@3.3.0(@types/node@22.0.2)(typescript@5.5.4):
     dependencies:
       chalk: 2.4.2
-      commitizen: 4.3.0(@types/node@22.0.0)(typescript@5.5.4)
+      commitizen: 4.3.0(@types/node@22.0.2)(typescript@5.5.4)
       conventional-commit-types: 3.0.0
       lodash.map: 4.6.0
       longest: 2.0.1
       word-wrap: 1.2.5
     optionalDependencies:
-      '@commitlint/load': 19.2.0(@types/node@22.0.0)(typescript@5.5.4)
+      '@commitlint/load': 19.2.0(@types/node@22.0.2)(typescript@5.5.4)
     transitivePeerDependencies:
       - '@types/node'
       - typescript
