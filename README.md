@@ -37,7 +37,7 @@ In `playwright.config.ts` the minimum settings are set,
 for more serious testing we advise you to use **Chrome**, **Edge**, **Firefox**
 or **Safari**.
 
-In the `src/spec-settings.ts` you can change the path
+In the `src/shared/spec-settings.ts` you can change the path
 to the **main directory** and enable or disable **devtools** for
 all tests you run.
 
