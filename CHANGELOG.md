@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.18](https://github.com/archoleat/browtest/compare/v2.0.17...v2.0.18) (2024-08-05)
+
+### Code Refactoring
+
+* small changes ([#212](https://github.com/archoleat/browtest/issues/212)) ([beb3a53](https://github.com/archoleat/browtest/commit/beb3a535c7b0c12b4ad7aba45541354819adf042))
+
+### Documentation
+
+* **readme:** update path ([#208](https://github.com/archoleat/browtest/issues/208)) ([12ba35e](https://github.com/archoleat/browtest/commit/12ba35ef2fc54a2a844107a4e8ca26938efe7d07))
+
 ## [2.0.17](https://github.com/archoleat/browtest/compare/v2.0.16...v2.0.17) (2024-07-31)
 
 ### Code Refactoring
