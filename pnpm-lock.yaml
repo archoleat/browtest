@@ -9,18 +9,18 @@ importers:
   .:
     dependencies:
       '@playwright/test':
-        specifier: ^1.45.3
-        version: 1.45.3
+        specifier: ^1.46.0
+        version: 1.46.0
     devDependencies:
       '@archoleat/commitlint-define-config':
-        specifier: ^1.0.7
-        version: 1.0.7
+        specifier: ^1.0.8
+        version: 1.0.8(@commitlint/cli@19.3.0(@types/node@22.1.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)
       '@archoleat/eslint-flat-compatibility':
         specifier: ^1.1.6
         version: 1.1.6
       '@archoleat/semantic-release-define-config':
-        specifier: ^1.1.11
-        version: 1.1.11(semantic-release@24.0.0(typescript@5.5.4))
+        specifier: ^1.1.12
+        version: 1.1.12(semantic-release@24.0.0(typescript@5.5.4))
       '@commitlint/cli':
         specifier: ^19.3.0
         version: 19.3.0(@types/node@22.1.0)(typescript@5.5.4)
@@ -85,8 +85,8 @@ importers:
         specifier: ^15.2.8
         version: 15.2.8
       playwright:
-        specifier: ^1.45.3
-        version: 1.45.3
+        specifier: ^1.46.0
+        version: 1.46.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -114,16 +114,20 @@ importers:
 
 packages:
 
-  '@archoleat/commitlint-define-config@1.0.7':
-    resolution: {integrity: sha512-2ekyjrJFJDk2t+13O65mmlekiZypGDnh7VXSq6fk4X9jExx4LQ7BgQSEEMS4DpM0ce3vjtAgQejEHyS9bzDyWA==}
-    engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
+  '@archoleat/commitlint-define-config@1.0.8':
+    resolution: {integrity: sha512-z00JsmPSnOznxED6HtlEdR50IPYv+3LLuwWx9dkCCm6IL1XW5C7WwkcUv+LNHynznvorVBAirgJJclqD6Fu4gQ==}
+    engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      '@commitlint/cli': ^19.0.0
+      '@commitlint/config-conventional': ^19.0.0
+      '@commitlint/types': ^19.0.0
 
   '@archoleat/eslint-flat-compatibility@1.1.6':
     resolution: {integrity: sha512-gu8PQv6hWh2DEm2FONtAPDvv1odZXCADshCyvouYzFNscEgMLW0zwbfv6d6pAlsk7uY9+V05R/tz0qv0Sy4mzg==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
 
-  '@archoleat/semantic-release-define-config@1.1.11':
-    resolution: {integrity: sha512-OREIKuHiSvDJm5J4C//Zpzxurp73lZ7iYEj/3kXBUBVWKNE3M8rsTt97jeh3mSrnoH9ZRkI4M1TlVOlNmH1JNA==}
+  '@archoleat/semantic-release-define-config@1.1.12':
+    resolution: {integrity: sha512-oZnq/ouabo6lvAxcSZr4DQmk4oETz2p27hFgmcjTNrzo5qoWtm80Fpk3Y1r42b9r+a8s5Y6kbaa5a195nTNG5g==}
     engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       semantic-release: ^23.0.0 || ^24.0.0
@@ -340,8 +344,8 @@ packages:
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
 
-  '@playwright/test@1.45.3':
-    resolution: {integrity: sha512-UKF4XsBfy+u3MFWEH44hva1Q8Da28G6RFtR2+5saw+jgAFQV5yYnB1fu68Mz7fO+5GJF3wgwAIs0UelU8TxFrA==}
+  '@playwright/test@1.46.0':
+    resolution: {integrity: sha512-/QYft5VArOrGRP5pgkrfKksqsKA6CEFyGQ/gjNe6q0y4tZ1aaPfq4gIjudr1s3D+pXyrPRdsy4opKDrjBabE5w==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1047,8 +1051,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.4:
-    resolution: {integrity: sha512-orzA81VqLyIGUEA77YkVA1D+N+nNfl2isJVjjmOyrlxuooZ19ynb+dOlaDTqd/idKRS9lDCSBmtzM+kyCsMnkA==}
+  electron-to-chromium@1.5.5:
+    resolution: {integrity: sha512-QR7/A7ZkMS8tZuoftC/jfqNkZLQO779SSW3YuZHP4eXpj3EffGLFcB/Xu9AAZQzLccTiCV+EmUo3ha4mQ9wnlA==}
 
   emoji-regex@10.3.0:
     resolution: {integrity: sha512-QpLs9D9v9kArv4lfDEgg1X/gN5XLnf/A6l9cs8SPZLRZR3ZkY9+kwIQTxm+fsSej5UMYGE8fdoaZVIBlqG0XTw==}
@@ -2567,13 +2571,13 @@ packages:
     resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
 
-  playwright-core@1.45.3:
-    resolution: {integrity: sha512-+ym0jNbcjikaOwwSZycFbwkWgfruWvYlJfThKYAlImbxUgdWFO2oW70ojPm4OpE4t6TAo2FY/smM+hpVTtkhDA==}
+  playwright-core@1.46.0:
+    resolution: {integrity: sha512-9Y/d5UIwuJk8t3+lhmMSAJyNP1BUC/DqP3cQJDQQL/oWqAiuPTLgy7Q5dzglmTLwcBRdetzgNM/gni7ckfTr6A==}
     engines: {node: '>=18'}
     hasBin: true
 
-  playwright@1.45.3:
-    resolution: {integrity: sha512-QhVaS+lpluxCaioejDZ95l4Y4jSFCsBvl2UZkpeXlzxmqS+aABr5c82YmfMHrL6x27nvrvykJAFpkzT2eWdJww==}
+  playwright@1.46.0:
+    resolution: {integrity: sha512-XYJ5WvfefWONh1uPAUAi0H2xXV5S3vrtcnXe6uAOgdGi3aSpqOSXX08IAjXW34xitfuOJsvXU5anXZxPSEQiJw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3487,8 +3491,10 @@ packages:
 
 snapshots:
 
-  '@archoleat/commitlint-define-config@1.0.7':
+  '@archoleat/commitlint-define-config@1.0.8(@commitlint/cli@19.3.0(@types/node@22.1.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)':
     dependencies:
+      '@commitlint/cli': 19.3.0(@types/node@22.1.0)(typescript@5.5.4)
+      '@commitlint/config-conventional': 19.2.2
       '@commitlint/types': 19.0.3
 
   '@archoleat/eslint-flat-compatibility@1.1.6':
@@ -3500,7 +3506,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@archoleat/semantic-release-define-config@1.1.11(semantic-release@24.0.0(typescript@5.5.4))':
+  '@archoleat/semantic-release-define-config@1.1.12(semantic-release@24.0.0(typescript@5.5.4))':
     dependencies:
       semantic-release: 24.0.0(typescript@5.5.4)
 
@@ -3815,9 +3821,9 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@playwright/test@1.45.3':
+  '@playwright/test@1.46.0':
     dependencies:
-      playwright: 1.45.3
+      playwright: 1.46.0
 
   '@pnpm/config.env-replace@1.1.0': {}
 
@@ -4250,7 +4256,7 @@ snapshots:
   browserslist@4.23.3:
     dependencies:
       caniuse-lite: 1.0.30001649
-      electron-to-chromium: 1.5.4
+      electron-to-chromium: 1.5.5
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.23.3)
 
@@ -4617,7 +4623,7 @@ snapshots:
 
   editorconfig-checker@5.1.8: {}
 
-  electron-to-chromium@1.5.4: {}
+  electron-to-chromium@1.5.5: {}
 
   emoji-regex@10.3.0: {}
 
@@ -6325,11 +6331,11 @@ snapshots:
       find-up: 2.1.0
       load-json-file: 4.0.0
 
-  playwright-core@1.45.3: {}
+  playwright-core@1.46.0: {}
 
-  playwright@1.45.3:
+  playwright@1.46.0:
     dependencies:
-      playwright-core: 1.45.3
+      playwright-core: 1.46.0
     optionalDependencies:
       fsevents: 2.3.2
 
