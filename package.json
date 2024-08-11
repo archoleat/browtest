@@ -70,7 +70,7 @@
     "@playwright/test": "^1.46.0"
   },
   "devDependencies": {
-    "@archoleat/commitlint-define-config": "^1.0.8",
+    "@archoleat/commitlint-define-config": "^1.0.9",
     "@archoleat/eslint-flat-compatibility": "^1.1.6",
     "@archoleat/prettier-define-config": "^1.0.0",
     "@archoleat/semantic-release-define-config": "^1.1.12",
