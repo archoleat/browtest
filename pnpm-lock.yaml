@@ -19,8 +19,8 @@ importers:
         specifier: ^1.1.6
         version: 1.1.6
       '@archoleat/prettier-define-config':
-        specifier: ^1.0.0
-        version: 1.0.0(prettier@3.3.3)
+        specifier: ^1.0.1
+        version: 1.0.1(prettier@3.3.3)
       '@archoleat/semantic-release-define-config':
         specifier: ^1.1.12
         version: 1.1.12(semantic-release@24.0.0(typescript@5.5.4))
@@ -129,8 +129,8 @@ packages:
     resolution: {integrity: sha512-gu8PQv6hWh2DEm2FONtAPDvv1odZXCADshCyvouYzFNscEgMLW0zwbfv6d6pAlsk7uY9+V05R/tz0qv0Sy4mzg==}
     engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
 
-  '@archoleat/prettier-define-config@1.0.0':
-    resolution: {integrity: sha512-Sh9DU476HVeQH6aywGuNKaSpRdLsVBNx6HYJRL+b3Oe1VZATv1gf1Ak2m5KeDhHm9VJ4Owf9RRSqUgOINP6i1Q==}
+  '@archoleat/prettier-define-config@1.0.1':
+    resolution: {integrity: sha512-BcqimIcthZHYCeODfpplawxkXnLlZSuTdbVAmBYzyUOIBdPvL/bmIgYUDWQ94bmVdQvV+N2nHm0giLNLe0ipgg==}
     engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       prettier: ^3.3.3
@@ -3515,7 +3515,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@archoleat/prettier-define-config@1.0.0(prettier@3.3.3)':
+  '@archoleat/prettier-define-config@1.0.1(prettier@3.3.3)':
     dependencies:
       prettier: 3.3.3
 
