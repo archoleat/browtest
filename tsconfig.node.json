@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
-    "allowImportingTsExtensions": true,
-    "composite": true,
-    "emitDeclarationOnly": true,
+    // Emit
+    "noEmit": true,
+    // Language and Environment
     "lib": ["ESNext"],
+    // Modules
+    "allowImportingTsExtensions": true,
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "types": ["playwright"]
+    "paths": {
+      "#shared": ["./src/shared/index.ts"]
+    },
+    "types": ["playwright"],
+    // Project
+    "disableReferencedProjectLoad": true
   }
 }
