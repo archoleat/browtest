@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.0.19](https://github.com/archoleat/browtest/compare/v2.0.18...v2.0.19) (2024-08-18)
+
+### Code Refactoring
+
+* add defineConfig ([#215](https://github.com/archoleat/browtest/issues/215)) ([faa61a9](https://github.com/archoleat/browtest/commit/faa61a9949c65020bf12c565451cc00cbfd25407))
+* move `package.json` scripts to ci ([#225](https://github.com/archoleat/browtest/issues/225)) ([e600f46](https://github.com/archoleat/browtest/commit/e600f460194e3ddaadd52ad092edf93642e6e5db))
+* **tsconfig:** remove `composite` option ([#224](https://github.com/archoleat/browtest/issues/224)) ([d7886ca](https://github.com/archoleat/browtest/commit/d7886ca5b33e76b0b201e7e539cad7add6d16d1d))
+* small changes ([#223](https://github.com/archoleat/browtest/issues/223)) ([6032cdf](https://github.com/archoleat/browtest/commit/6032cdfbb2defea7f10e79fbe5dc232a305b3a04))
+
 ## [2.0.18](https://github.com/archoleat/browtest/compare/v2.0.17...v2.0.18) (2024-08-05)
 
 ### Code Refactoring
