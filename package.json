@@ -54,13 +54,7 @@
     "spec:chrome:mobile": "playwright test specs/mobile/chrome.spec.ts",
     "spec:multiple:desktop": "playwright test specs/desktop",
     "spec:multiple:mobile": "playwright test specs/mobile",
-    "spec:all": "playwright test",
-    "release": "semantic-release",
-    "lint:editorconfig": "editorconfig-checker",
-    "lint:formatting": "prettier . --check",
-    "lint:md": "remark . --quiet --frail",
-    "lint:ts": "eslint src/**/*.ts --fix",
-    "prettify": "prettier . --write"
+    "spec:all": "playwright test"
   },
   "peerDependencies": {
     "playwright": "^1.0.0"
