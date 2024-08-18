@@ -43,7 +43,7 @@ jobs:
       - name: Auto Build
         uses: github/codeql-action/autobuild@v3
 
-      - name: Perform Analysis
+      - name: Perform Code Analysis
         uses: github/codeql-action/analyze@v3
         with:
           category: /language:${{ matrix.language }}
