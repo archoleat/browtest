@@ -16,8 +16,8 @@ importers:
         specifier: ^1.0.10
         version: 1.0.10(@commitlint/cli@19.4.0(@types/node@22.2.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)
       '@archoleat/eslint-flat-compatibility':
-        specifier: ^1.1.6
-        version: 1.1.6
+        specifier: ^1.1.7
+        version: 1.1.7(eslint@8.57.0)
       '@archoleat/prettier-define-config':
         specifier: ^1.0.1
         version: 1.0.1(prettier@3.3.3)
@@ -122,9 +122,11 @@ packages:
       '@commitlint/config-conventional': ^19.0.0
       '@commitlint/types': ^19.0.0
 
-  '@archoleat/eslint-flat-compatibility@1.1.6':
-    resolution: {integrity: sha512-gu8PQv6hWh2DEm2FONtAPDvv1odZXCADshCyvouYzFNscEgMLW0zwbfv6d6pAlsk7uY9+V05R/tz0qv0Sy4mzg==}
-    engines: {node: '>=20.0.0', npm: '>=10.0.0', pnpm: '>=8.0.0'}
+  '@archoleat/eslint-flat-compatibility@1.1.7':
+    resolution: {integrity: sha512-I2HKFVJOEVi/yPImEr0Y1th6pdIcSzYAWpndKSOFCling+jj7d8kRzx2uyZSUAmVFXRmQOR9Gs/y/YkzD5MIUg==}
+    engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
+    peerDependencies:
+      eslint: ^8.0.0 || ^9.0.0
 
   '@archoleat/prettier-define-config@1.0.1':
     resolution: {integrity: sha512-BcqimIcthZHYCeODfpplawxkXnLlZSuTdbVAmBYzyUOIBdPvL/bmIgYUDWQ94bmVdQvV+N2nHm0giLNLe0ipgg==}
@@ -435,12 +437,6 @@ packages:
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
 
-  '@types/eslint@8.56.11':
-    resolution: {integrity: sha512-sVBpJMf7UPo/wGecYOpk2aQya2VUGeHhe38WG7/mN5FufNSubf5VT9Uh9Uyp8/eLJpu1/tuhJ/qTo4mhSB4V4Q==}
-
-  '@types/eslint__eslintrc@2.1.2':
-    resolution: {integrity: sha512-qXvzPFY7Rz05xD8ZApXJ3S8xStQD2Ibzu3EFIF0UMNOAfLY5xUu3H61q0JrHo2OXD6rcFG75yUxNQbkKtFKBSw==}
-
   '@types/estree-jsx@1.0.5':
     resolution: {integrity: sha512-52CcUVNFyfb1A2ALocQw/Dd1BQFNmSdkuC3BkZ6iqhdMfQz7JWOFRuJFloOzjk+6WijU56m9oKXFAXc7o3Towg==}
 
@@ -452,9 +448,6 @@ packages:
 
   '@types/is-empty@1.2.3':
     resolution: {integrity: sha512-4J1l5d79hoIvsrKh5VUKVRA1aIdsOb10Hu5j3J2VfP/msDnfTdGPmNp2E1Wg+vs97Bktzo+MZePFFXSGoykYJw==}
-
-  '@types/json-schema@7.0.15':
-    resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
@@ -2423,18 +2416,8 @@ packages:
     resolution: {integrity: sha512-C+VUP+8jis7EsQZIhDYmS5qlNtjv2yP4SNtjXK9AP1ZcTRlnSfuumaTnRfYZnYgUUYVIKqL0fRvmUGDV2fmp6g==}
     engines: {node: '>=4'}
 
-  playwright-core@1.46.0:
-    resolution: {integrity: sha512-9Y/d5UIwuJk8t3+lhmMSAJyNP1BUC/DqP3cQJDQQL/oWqAiuPTLgy7Q5dzglmTLwcBRdetzgNM/gni7ckfTr6A==}
-    engines: {node: '>=18'}
-    hasBin: true
-
   playwright-core@1.46.1:
     resolution: {integrity: sha512-h9LqIQaAv+CYvWzsZ+h3RsrqCStkBHlgo6/TJlFst3cOTlLghBQlJwPOZKQJTKNaD3QIB7aAVQ+gfWbN3NXB7A==}
-    engines: {node: '>=18'}
-    hasBin: true
-
-  playwright@1.46.0:
-    resolution: {integrity: sha512-XYJ5WvfefWONh1uPAUAi0H2xXV5S3vrtcnXe6uAOgdGi3aSpqOSXX08IAjXW34xitfuOJsvXU5anXZxPSEQiJw==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3333,11 +3316,10 @@ snapshots:
       '@commitlint/config-conventional': 19.2.2
       '@commitlint/types': 19.0.3
 
-  '@archoleat/eslint-flat-compatibility@1.1.6':
+  '@archoleat/eslint-flat-compatibility@1.1.7(eslint@8.57.0)':
     dependencies:
       '@eslint/eslintrc': 3.1.0
-      '@types/eslint': 8.56.11
-      '@types/eslint__eslintrc': 2.1.2
+      eslint: 8.57.0
       eslint-define-config: 2.1.0
     transitivePeerDependencies:
       - supports-color
@@ -3792,15 +3774,6 @@ snapshots:
     dependencies:
       '@types/ms': 0.7.34
 
-  '@types/eslint@8.56.11':
-    dependencies:
-      '@types/estree': 1.0.5
-      '@types/json-schema': 7.0.15
-
-  '@types/eslint__eslintrc@2.1.2':
-    dependencies:
-      '@types/eslint': 8.56.11
-
   '@types/estree-jsx@1.0.5':
     dependencies:
       '@types/estree': 1.0.5
@@ -3812,8 +3785,6 @@ snapshots:
       '@types/unist': 3.0.2
 
   '@types/is-empty@1.2.3': {}
-
-  '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
 
@@ -5984,15 +5955,7 @@ snapshots:
       find-up: 2.1.0
       load-json-file: 4.0.0
 
-  playwright-core@1.46.0: {}
-
   playwright-core@1.46.1: {}
-
-  playwright@1.46.0:
-    dependencies:
-      playwright-core: 1.46.0
-    optionalDependencies:
-      fsevents: 2.3.2
 
   playwright@1.46.1:
     dependencies:
