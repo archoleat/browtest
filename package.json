@@ -60,7 +60,7 @@
     "playwright": "^1.0.0"
   },
   "dependencies": {
-    "@playwright/test": "^1.46.0"
+    "@playwright/test": "^1.46.1"
   },
   "devDependencies": {
     "@archoleat/commitlint-define-config": "^1.0.10",
