@@ -13,8 +13,8 @@ importers:
         version: 1.46.0
     devDependencies:
       '@archoleat/commitlint-define-config':
-        specifier: ^1.0.9
-        version: 1.0.9(@commitlint/cli@19.4.0(@types/node@22.2.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)
+        specifier: ^1.0.10
+        version: 1.0.10(@commitlint/cli@19.4.0(@types/node@22.2.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)
       '@archoleat/eslint-flat-compatibility':
         specifier: ^1.1.6
         version: 1.1.6
@@ -114,8 +114,8 @@ importers:
 
 packages:
 
-  '@archoleat/commitlint-define-config@1.0.9':
-    resolution: {integrity: sha512-Sb5WuLgiOEJX81lKGdk/7BvP7uUkRzDMNRGlSuWK4zJ86Dh1S9ouWTwA2hykl2eKXx7tTzCcoT1WUfarujKyWQ==}
+  '@archoleat/commitlint-define-config@1.0.10':
+    resolution: {integrity: sha512-wMFPPQM+zbp3OV1T4TSQDb2mlHC1MLT43G61eqtlkT284ZNcLej4/oZJNHHjnBS9hPfgSuO/Wr+rGOC3J8Xxaw==}
     engines: {node: '>=20.0.0', pnpm: '>=9.0.0'}
     peerDependencies:
       '@commitlint/cli': ^19.0.0
@@ -3317,7 +3317,7 @@ packages:
 
 snapshots:
 
-  '@archoleat/commitlint-define-config@1.0.9(@commitlint/cli@19.4.0(@types/node@22.2.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)':
+  '@archoleat/commitlint-define-config@1.0.10(@commitlint/cli@19.4.0(@types/node@22.2.0)(typescript@5.5.4))(@commitlint/config-conventional@19.2.2)(@commitlint/types@19.0.3)':
     dependencies:
       '@commitlint/cli': 19.4.0(@types/node@22.2.0)(typescript@5.5.4)
       '@commitlint/config-conventional': 19.2.2
