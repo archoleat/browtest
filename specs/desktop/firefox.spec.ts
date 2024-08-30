@@ -1,7 +1,7 @@
 import { firefox } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '#shared';
+import { specSettings } from '#settings/spec-settings.ts';
 
 spec('Desktop Firefox', async () => {
   const browser = await firefox.launch({

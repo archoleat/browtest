@@ -9,7 +9,7 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "paths": {
-      "#shared": ["./src/shared/index.ts"]
+      "#settings/*": ["./src/shared/*"]
     },
     "types": ["playwright"],
     // Project
