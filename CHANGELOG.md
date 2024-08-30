@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.0.20](https://github.com/archoleat/browtest/compare/v2.0.19...v2.0.20) (2024-08-30)
+
+### Bug Fixes
+
+* **eslint-config:** add `files` option ([#238](https://github.com/archoleat/browtest/issues/238)) ([28084cc](https://github.com/archoleat/browtest/commit/28084cc304eee2affe4c7dbe9ab74575610cd8a8))
+
+### Code Refactoring
+
+* eslint ([#237](https://github.com/archoleat/browtest/issues/237)) ([8d6b075](https://github.com/archoleat/browtest/commit/8d6b07594e52de12003864a99b04989c99b7a333))
+* **prettierignore:** remove `.czrc` ([#234](https://github.com/archoleat/browtest/issues/234)) ([a161af1](https://github.com/archoleat/browtest/commit/a161af18563eed4b71b293e092b22c67430f21ae))
+* remove `index.ts` file ([#239](https://github.com/archoleat/browtest/issues/239)) ([c941247](https://github.com/archoleat/browtest/commit/c941247659f91ac0bcd35e8775f3d04489274dd0))
+
 ## [2.0.19](https://github.com/archoleat/browtest/compare/v2.0.18...v2.0.19) (2024-08-18)
 
 ### Code Refactoring
