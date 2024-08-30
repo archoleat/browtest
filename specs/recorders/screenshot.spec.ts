@@ -1,7 +1,7 @@
 import { chromium, firefox, webkit } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '#shared';
+import { specSettings } from '#settings/spec-settings.ts';
 
 spec('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const browserEngines = [chromium, firefox, webkit];
