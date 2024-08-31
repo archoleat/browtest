@@ -1,1 +1,1 @@
-pnpm git-pull-run --pattern 'pnpm-lock.yaml' --command 'pnpm i'
+pnpm git-pull-run --pattern 'package.json' --command 'pnpm i'
