@@ -1,7 +1,7 @@
 import { webkit, devices } from 'playwright';
 import { test as spec } from '@playwright/test';
 
-import { specSettings } from '#settings/spec-settings.ts';
+import { specSettings } from '#settings';
 
 spec('Mobile Safari', async () => {
   const browser = await webkit.launch({

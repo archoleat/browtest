@@ -45,29 +45,28 @@ all tests you run.
 
 ## Scripts
 
-- `init`: Installs dependencies, **Husky**, **Playwright**
-  and update submodules.
-
-- `spec:safari:desktop`: Runs **desktop Safari**.
-
-- `spec:safari:mobile`: Runs **mobile Safari**.
-
-- `spec:firefox:desktop`: Runs **desktop Firefox**.
-
-- `spec:chrome:desktop`: Runs **desktop Chrome**.
-
-- `spec:chrome:mobile`: Runs **mobile Chrome**.
-
-- `spec:multiple:desktop`: Runs all desktop browsers in parallel.
-
-- `spec:multiple:mobile`: Runs all mobile browsers in parallel.
-
-- `spec:all`: Runs all tests from **desktop/** and **mobile/** folders.
+- `init`: Installs dependencies, **Husky**, **Playwright**.
 
 - `screenshot:desktop:all`: Creates screenshots for all desktop browsers.
 
   > Screenshots are saved at
   > `spec-results/screenshots/{browserName}-{dateNow}.png.`
+
+- `safari:desktop`: Runs **desktop Safari**.
+
+- `safari:mobile`: Runs **mobile Safari**.
+
+- `firefox:desktop`: Runs **desktop Firefox**.
+
+- `chrome:desktop`: Runs **desktop Chrome**.
+
+- `chrome:mobile`: Runs **mobile Chrome**.
+
+- `multiple:desktop`: Runs all desktop browsers in parallel.
+
+- `multiple:mobile`: Runs all mobile browsers in parallel.
+
+- `all`: Runs all tests.
 
 ## Contributing
 
