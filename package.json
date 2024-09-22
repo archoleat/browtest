@@ -38,7 +38,7 @@
   },
   "type": "module",
   "imports": {
-    "#settings": "./src/shared/spec-settings.ts"
+    "#settings": "./src/shared/index.ts"
   },
   "scripts": {
     "init": "pnpm i && husky && playwright install",
