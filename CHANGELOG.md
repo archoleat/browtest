@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.0.21](https://github.com/archoleat/browtest/compare/v2.0.20...v2.0.21) (2024-09-22)
+
+### ⚠ BREAKING CHANGES
+
+* architecture (#247)
+* safari mode only available (#245)
+
+### Bug Fixes
+
+* aliases and docs ([#241](https://github.com/archoleat/browtest/issues/241)) ([9dc58d6](https://github.com/archoleat/browtest/commit/9dc58d6125ab389faca902563a23eb6ca834b732))
+
+### Code Refactoring
+
+* **package:** add `git+` ([#243](https://github.com/archoleat/browtest/issues/243)) ([c307d42](https://github.com/archoleat/browtest/commit/c307d42d57c44d6348abef652e553faeb4906687))
+* architecture ([#247](https://github.com/archoleat/browtest/issues/247)) ([ae4a52c](https://github.com/archoleat/browtest/commit/ae4a52c690944e00c046babefd745fc7bfbe4259))
+* codeql ([#246](https://github.com/archoleat/browtest/issues/246)) ([04151fe](https://github.com/archoleat/browtest/commit/04151fef86deeb9157e766bec4c445fabef6195c))
+* **prettier:** remove json override ([#244](https://github.com/archoleat/browtest/issues/244)) ([d23cfae](https://github.com/archoleat/browtest/commit/d23cfae8dc9a49bd8d5f12dc0ce913fac4e675f1))
+* safari mode only available ([#245](https://github.com/archoleat/browtest/issues/245)) ([6106ea4](https://github.com/archoleat/browtest/commit/6106ea4ae711eea79c1cec3ed54c0be639cb8505))
+
 ## [2.0.20](https://github.com/archoleat/browtest/compare/v2.0.19...v2.0.20) (2024-08-30)
 
 ### Bug Fixes
