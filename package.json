@@ -44,13 +44,7 @@
     "init": "pnpm i && husky && playwright install",
     "screenshot:desktop:all": "playwright test specs/recorders/screenshot.spec.ts",
     "safari:desktop": "playwright test specs/desktop/safari.spec.ts",
-    "safari:mobile": "playwright test specs/mobile/safari.spec.ts",
-    "firefox:desktop": "playwright test specs/desktop/firefox.spec.ts",
-    "chrome:desktop": "playwright test specs/desktop/chrome.spec.ts",
-    "chrome:mobile": "playwright test specs/mobile/chrome.spec.ts",
-    "multiple:desktop": "playwright test specs/desktop",
-    "multiple:mobile": "playwright test specs/mobile",
-    "all": "playwright test"
+    "safari:mobile": "playwright test specs/mobile/safari.spec.ts"
   },
   "peerDependencies": {
     "playwright": "^1.0.0"

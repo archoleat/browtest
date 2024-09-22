@@ -56,18 +56,6 @@ all tests you run.
 
 - `safari:mobile`: Runs **mobile Safari**.
 
-- `firefox:desktop`: Runs **desktop Firefox**.
-
-- `chrome:desktop`: Runs **desktop Chrome**.
-
-- `chrome:mobile`: Runs **mobile Chrome**.
-
-- `multiple:desktop`: Runs all desktop browsers in parallel.
-
-- `multiple:mobile`: Runs all mobile browsers in parallel.
-
-- `all`: Runs all tests.
-
 ## Contributing
 
 Please read [**CONTRIBUTING**](https://github.com/archoleat/.github/blob/main/CONTRIBUTING.md)
