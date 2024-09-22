@@ -5,11 +5,13 @@ on:
     branches:
       - main
     paths:
+      - 'specs/**/*.spec.ts'
       - 'src/**/*.ts'
   push:
     branches:
       - main
     paths:
+      - 'specs/**/*.spec.ts'
       - 'src/**/*.ts'
 
 permissions:
