@@ -8,7 +8,7 @@ spec('Take screenshots for Chrome, Firefox, and Safari', async () => {
   const screenshots: Array<object> = [];
 
   for (const engine of browserEngines) {
-    const browserName = engine.name();
+    const engineName = engine.name();
 
     const takeScreenshot = async () => {
       const browser = await engine.launch();
@@ -19,7 +19,7 @@ spec('Take screenshots for Chrome, Firefox, and Safari', async () => {
       await page.screenshot({
         path: `${
           specSettings.resultsFolder
-        }/screenshots/${browserName}-${Date.now()}.png`,
+        }/screenshots/${engineName}-${Date.now()}.png`,
         fullPage: true,
       });
 
