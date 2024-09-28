@@ -1,6 +1,6 @@
 {
   "name": "@archoleat/browtest",
-  "description": "Cross-browser testing of your website powered by Playwright!",
+  "description": "Cross-browser testing of your website powered by Playwright",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
